@@ -16,11 +16,11 @@
 * Course Intro / Expectaion
   * Overview / Sylabus
   * Homework / Final Project
-  * Notes
-    * Who I am
-    * What is programming and why you should learn
-    * What is P5.js
-    * Example projects
+* Notes
+  * Who I am
+  * What is programming and why you should learn
+  * What is P5.js
+  * Example projects
 
 ### Week 2 -- Drawing
 * Topics
