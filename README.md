@@ -16,19 +16,21 @@
 * Course Intro / Expectaion
   * Overview / Sylabus
   * Homework / Final Project
+    * How to use github
 * Notes
   * Who I am
   * What is programming and why you should learn
   * What is P5.js
-  * [Example projects](https://jinsung.github.io/sva-cc-spring-2017/week01/introdunction/)
+  * [Example](https://jinsung.github.io/sva-cc-spring-2017/week01/examples/01/index.html)
 
 ### Week 2 -- Drawing
 * Topics
   * Setup / Draw Functions
   * Shape and Images
 * Examples
+  * [Circles](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/01/index.html)
 * Assignments
-  * Read and test this [example](https://p5js.org/examples/form-shape-primitives.html) and [reference](https://p5js.org/reference/#group-Shape) in p5js.org, and make your own shape. 
+  * Read and test this [example](https://p5js.org/examples/form-shape-primitives.html) and [reference](https://p5js.org/reference/#group-Shape) in p5js.org, and draw your own shapes.
 
 ### Week 3 -- Animation
 * Topics
