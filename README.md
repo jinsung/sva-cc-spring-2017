@@ -2,7 +2,7 @@
 - Spring, 2017
 - Instructor: Jin Sung Yoo
 
-## DESCIPRTION
+## DESCRIPTION
 - This course involves an exploration of programming as a tool of visual communication and interactivity between computer and people. This is a project-based course. Students will learn computer programming by their hands-on experiences. During the semester the p5.js will be used to illustrate fundamental of computation.
 
 ## RESOURCES
@@ -13,8 +13,8 @@
 ## SYLLABUS
 
 ### Week 1 -- Introduction
-* Course Intro / Expectaion
-  * Overview / Sylabus
+* Course Intro / Expectation
+  * Overview / Syllabus
   * Homework / Final Project
     * How to use github
 * Notes
@@ -54,17 +54,18 @@
 * Examples
 * Assignments
 
-### Week 6 -- Object and Arrays
+### Week 6 -- Individual Checkup
+* One on one check up for Q and A session.
+
+### Week 7 -- Object and Arrays
 * Topics
   * OOP
   * List of variables and objects
 
-### Week 7 -- Individual Checkup
-* One on one check up for Q and A session.
-
-### Week 8 -- DOM: Event and Callback Function
+### Week 8 -- Multiple JS fils / Event and Callback Function
 * Topics
-  * Arrays
+  * How to make multiple files
+  * Clicking on objects
 
 ### Week 9 -- Data
 * Topics
@@ -72,14 +73,17 @@
   * Debugging
   * Libraries
 
-### Week 10 -- Video and Sound
+### Week 10 -- Video and Pixels
 * Topics
-  * Sound
-  * Live capture
+  * Video Import & Playback
+  * Pixel manipulation
 
 ### Week 11 -- Final Project Proposals
 
-### Week 12 -- Final Project Proposals
+### Week 12 -- Perlin Noise
+* Topics
+  * What is Perlin Noise
+  * Draw better random numbers
 
 ### Week 13 -- Final Project Troubleshoot and Debugging
 
