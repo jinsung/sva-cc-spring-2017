@@ -20,7 +20,7 @@
   * Who I am
   * What is programming and why you should learn
   * What is P5.js
-  * Example projects
+  * [Example projects](https://jinsung.github.io/sva-cc-spring-2017/week01/introdunction/)
 
 ### Week 2 -- Drawing
 * Topics
@@ -28,6 +28,7 @@
   * Shape and Images
 * Examples
 * Assignments
+  * Read and test this [example](https://p5js.org/examples/form-shape-primitives.html) and [reference](https://p5js.org/reference/#group-Shape) in p5js.org, and make your own shape. 
 
 ### Week 3 -- Animation
 * Topics
