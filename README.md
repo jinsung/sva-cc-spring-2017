@@ -18,7 +18,7 @@
 * Course Intro / Expectation
   * Overview / Syllabus
 * Notes
-  * Who Yumi and I are?
+  * Who we are?
     * [Works](https://vimeo.com/136505838)
   * And YOU?
   * What is programming and why you should learn
