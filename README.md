@@ -1,6 +1,7 @@
 # Creative Computing
 - Spring, 2017
-- Instructor: Jin Sung Yoo
+- Instructor: Jin Sung Yoo - ujinsung@gmail.com
+- Teaching Assistant: Yumi Nakamura
 
 ## DESCRIPTION
 - This course involves an exploration of programming as a tool of visual communication and interactivity between computer and people. This is a project-based course. Students will learn computer programming by their hands-on experiences. During the semester the p5.js will be used to illustrate fundamental of computation.
