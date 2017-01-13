@@ -8,7 +8,8 @@
 ## RESOURCES
 - [p5.js tutorials](http://p5js.org/tutorials/)
 - [p5.js reference](http://p5js.org/reference)
-- [Getting Started with p5.js](http://amzn.to/1PmztVt) - O'Reilly book
+- [Getting Started with p5.js](http://amzn.to/1PmztVt)
+- [Learning Processing](http://learningprocessing.com/)
 
 ## SYLLABUS
 
@@ -19,8 +20,13 @@
     * How to use github
 * Notes
   * Who I am
+    * [Works](https://vimeo.com/136505838)
   * What is programming and why you should learn
-  * What is P5.js
+  * Reference works
+    * [John Maeda Design](https://www.google.com/search?q=john+maeda&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjdlPai1b_RAhUs7oMKHXA_A7UQ_AUICSgC&biw=1167&bih=888#tbm=isch&q=john+maeda+graphic+design&imgrc=PhLxs7TrTqQ07M%3A)
+    * [Zach Liberman's Instagram](https://www.instagram.com/zach.lieberman/?hl=en)
+    * [Sharing Face](https://vimeo.com/96549043)
+  * What is [P5.js](https://p5js.org/)
   * [Example](https://jinsung.github.io/sva-cc-spring-2017/week01/examples/01/index.html)
 
 ### Week 2 -- Drawing
