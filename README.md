@@ -17,7 +17,7 @@
 ### Week 1 -- Introduction
 * Course Intro / Expectation
   * Overview / Syllabus
-* Notes
+* Topics
   * Who I am
     * [Works](https://vimeo.com/136505838)
   * And YOU?
