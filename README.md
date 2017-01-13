@@ -20,6 +20,7 @@
 * Notes
   * Who I am
     * [Works](https://vimeo.com/136505838)
+  * And YOU?
   * What is programming and why you should learn
   * Reference works
     * [John Maeda Design](https://www.google.com/search?q=john+maeda&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjdlPai1b_RAhUs7oMKHXA_A7UQ_AUICSgC&biw=1167&bih=888#tbm=isch&q=john+maeda+graphic+design&imgrc=PhLxs7TrTqQ07M%3A)
@@ -29,17 +30,19 @@
   * [Example](https://jinsung.github.io/sva-cc-spring-2017/week01/examples/01/index.html)
 * Homework / Final Project
   * How to use github
-  
+
 ### Week 2 -- Drawing
 * Topics
   * Setup / Draw Functions
   * Shape and Images
 * Examples
-  * [Circles](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/01/index.html)
+  * [01](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/01/index.html)
+  * [02](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/02/index.html)
 * Assignments
   * Read and test this [example](https://p5js.org/examples/form-shape-primitives.html) and [reference](https://p5js.org/reference/#group-Shape) in p5js.org, and draw your own shapes.
 
 ### Week 3 -- Animation
+* Review, Debug and Discuss on homework for 30 mins
 * Topics
   * Variables
   * MouseX and MouseY
