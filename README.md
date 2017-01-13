@@ -15,10 +15,8 @@
 ## SYLLABUS
 
 ### Week 1 -- Introduction
-* Course Intro / Expectation
-  * Overview / Syllabus
 * Topics
-  * Who I am
+  * Who we are?
     * [Works](https://vimeo.com/136505838)
   * And YOU?
   * What is programming and why you should learn
@@ -28,6 +26,8 @@
     * [Sharing Face](https://vimeo.com/96549043)
   * What is [P5.js](https://p5js.org/)
   * [Example](https://jinsung.github.io/sva-cc-spring-2017/week01/examples/01/index.html)
+* Course Intro / Expectation
+  * Overview / Syllabus
 * Homework / Final Project
   * How to use github
 
