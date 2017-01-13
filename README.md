@@ -28,6 +28,7 @@
   * [Example](https://jinsung.github.io/sva-cc-spring-2017/week01/examples/01/index.html)
 * Homework / Final Project
   * How to use github
+  
 ### Week 2 -- Drawing
 * Topics
   * Setup / Draw Functions
