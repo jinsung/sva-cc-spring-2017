@@ -16,8 +16,6 @@
 ### Week 1 -- Introduction
 * Course Intro / Expectation
   * Overview / Syllabus
-  * Homework / Final Project
-    * How to use github
 * Notes
   * Who I am
     * [Works](https://vimeo.com/136505838)
@@ -28,7 +26,8 @@
     * [Sharing Face](https://vimeo.com/96549043)
   * What is [P5.js](https://p5js.org/)
   * [Example](https://jinsung.github.io/sva-cc-spring-2017/week01/examples/01/index.html)
-
+* Homework / Final Project
+  * How to use github
 ### Week 2 -- Drawing
 * Topics
   * Setup / Draw Functions
