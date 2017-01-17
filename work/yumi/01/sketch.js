@@ -3,7 +3,7 @@ function setup () {
 }
 
 function draw() {
-  background (100);
+  background (1
   if (mouseIsPressed) {
     fill(0);
   } else {
