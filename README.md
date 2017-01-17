@@ -33,15 +33,25 @@
 
 ### Week 2 -- Drawing
 * Topics
+  * Using Github
+  * Pixels and Color
   * Setup / Draw Functions
-  * Shape and Images
+  * Shapes
 * Examples
-  * [01](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/01/index.html)
-  * [02](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/02/index.html)
+  * [Stroke And Fill](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/01_stroke_fill/index.html)
+  * [Colors](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/02_color/index.html)
+  * [Setup & Draw / Random](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/03_random/index.html)
+  * [Shapes]
 * Assignments
-  * Read and test this [example](https://p5js.org/examples/form-shape-primitives.html) and [reference](https://p5js.org/reference/#group-Shape) in p5js.org, and draw your own shapes.
+  * 1. Generative art #1
+   * Draw shapes
+   * No background
+   * Time or interactive based
+   * Use different colors for stroke and fill
+   * Use If statement.
 
-### Week 3 -- Animation
+
+### Week 3 -- Variables / Interaction
 * Review, Debug and Discuss on homework for 30 mins
 * Topics
   * Variables
@@ -49,14 +59,14 @@
 * Examples
 * Assignments
 
-### Week 4 -- Interaction
+### Week 4 -- Conditionals
 * Topics
   * Mouse and Keyboard Interaction
   * Conditional Statements
 * Examples
 * Assignments
 
-### Week 5 -- Functions
+### Week 5 -- Functions / Arrays
 * Topics
   * Define and Calling Functions
   * Argument
@@ -83,7 +93,7 @@
   * Debugging
   * Libraries
 
-### Week 10 -- Video and Pixels
+### Week 10 -- Media
 * Topics
   * Video Import & Playback
   * Pixel manipulation
