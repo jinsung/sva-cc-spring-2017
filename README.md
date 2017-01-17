@@ -42,8 +42,7 @@
   * [Colors](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/02_color/index.html)
   * [Setup & Draw / Random](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/03_random/index.html)
   * [Shapes]
-* Assignments
-  * 1. Generative art #1
+* Assignments : Generative art #1
    * Draw shapes
    * No background
    * Time or interactive based
