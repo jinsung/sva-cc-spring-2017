@@ -42,7 +42,7 @@
   * [Colors](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/02_color/index.html)
   * [Setup & Draw / Random](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/03_random/index.html)
   * [Shapes]
-* Assignments : Generative art #1
+* Assignment : Generative art #1
    * Draw shapes
    * No background
    * Time or interactive based
@@ -56,22 +56,22 @@
   * Variables
   * MouseX and MouseY
 * Examples
-* Assignments
 
 ### Week 4 -- Conditionals
 * Topics
   * Mouse and Keyboard Interaction
   * Conditional Statements
 * Examples
-* Assignments
 
-### Week 5 -- Functions / Arrays
+### Week 5 -- Functions / Arrays - Assignment 1 due date
 * Topics
   * Define and Calling Functions
   * Argument
   * Modularity
 * Examples
-* Assignments
+* Assignment : Generative art #2
+  * Animate elements base on interaction
+  * Use for loop
 
 ### Week 6 -- Individual Checkup
 * One on one check up for Q and A session.
@@ -92,7 +92,7 @@
   * Debugging
   * Libraries
 
-### Week 10 -- Media
+### Week 10 -- Media - - Assignment 2 due date
 * Topics
   * Video Import & Playback
   * Pixel manipulation
