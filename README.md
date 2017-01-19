@@ -34,6 +34,7 @@
 ### Week 2 -- Drawing
 * Topics
   * Using Github
+  * Step-by-step approach
   * Pixels and Color
   * Setup / Draw Functions
   * Shapes
