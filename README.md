@@ -41,8 +41,8 @@
 * Examples
   * [Stroke And Fill](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/01_stroke_fill/index.html)
   * [Colors](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/02_color/index.html)
-  * [Setup & Draw / Random](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/03_random/index.html)
   * [Shapes]
+  * [Setup & Draw](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/03_random/index.html)
 * Assignment : Generative art #1
    * Draw shapes
    * No background
@@ -50,13 +50,16 @@
    * Use different colors for stroke and fill
    * Use If statement.
 
-
 ### Week 3 -- Variables / Interaction
-* Review, Debug and Discuss on homework for 30 mins
 * Topics
   * Variables
   * MouseX and MouseY
 * Examples
+  * [Declaring Variables]
+  * [Using Variables]
+  * [Arithmetic]
+  * [Built-in Variables]
+  * [Random]
 
 ### Week 4 -- Conditionals
 * Topics
@@ -65,6 +68,7 @@
 * Examples
 
 ### Week 5 -- Functions / Arrays - Assignment 1 due date
+* Assignment review
 * Topics
   * Define and Calling Functions
   * Argument
@@ -94,6 +98,7 @@
   * Libraries
 
 ### Week 10 -- Media - - Assignment 2 due date
+* Assignment review
 * Topics
   * Video Import & Playback
   * Pixel manipulation

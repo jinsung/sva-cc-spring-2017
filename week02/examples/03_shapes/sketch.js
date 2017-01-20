@@ -1,14 +1,10 @@
 function setup () {
-  createCanvas(640, 640);
-  background(0);
+  createCanvas(640, 480);
+  background(255);
 }
 
 function draw() {
-  var rand = random(10);
-  fill (rand * 10 + 100);
-  ellipse(width/2 + rand, height/2 + rand, mouseX, mouseY);
-}
-
-function mousePressed() {
-  saveFrame();
+  triangle (15, 0, 0, 15, 30, 15);
+  rect(0, 15, 30, 30);
+  rect(12, 30, 10, 15);
 }

@@ -8,7 +8,3 @@ function draw() {
   fill (rand * 10 + 100);
   ellipse(width/2 + rand, height/2 + rand, mouseX, mouseY);
 }
-
-function mousePressed() {
-  saveFrame();
-}
