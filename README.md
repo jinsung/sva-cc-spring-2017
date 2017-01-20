@@ -41,8 +41,8 @@
 * Examples
   * [Stroke And Fill](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/01_stroke_fill/index.html)
   * [Colors](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/02_color/index.html)
-  * [Shapes]
-  * [Setup & Draw](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/03_random/index.html)
+  * [Shapes](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/03_shapes/index.html)
+  * [Setup & Draw](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/04_random/index.html)
 * Assignment : Generative art #1
    * Draw shapes
    * No background
