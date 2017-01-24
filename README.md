@@ -59,7 +59,7 @@
 * Examples
   * [Setup & Draw](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/01_setup_draw/index.html)
   * [Interaction / Mouse Position](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/02_mouse_pos/index.html)
-  * [Interaction / pmouse](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/02_pmouse/index.html)
+  * [Interaction / pmouse](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/03_pmouse/index.html)
   * [Declaring Variables]
   * [Using Variables]
   * [Arithmetic]
