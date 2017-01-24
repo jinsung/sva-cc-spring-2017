@@ -33,16 +33,16 @@
 
 ### Week 2 -- Drawing
 * Topics
-  * Using Github
   * Step-by-step approach
   * Pixels and Color
   * Setup / Draw Functions
   * Shapes
+  * [Using Github](https://github.com/ilanameow/sva-cc-spring-2017/blob/master/week02/github/README.md)
 * Examples
   * [Stroke And Fill](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/01_stroke_fill/index.html)
   * [Colors](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/02_color/index.html)
   * [Shapes](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/03_shapes/index.html)
-  * [Setup & Draw](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/04_random/index.html)
+  * [Shape Modes](https://jinsung.github.io/sva-cc-spring-2017/week02/examples/04_shape_modes/index.html)
 * Assignment : Generative art #1
    * Draw shapes
    * No background
@@ -50,11 +50,14 @@
    * Use different colors for stroke and fill
    * Use If statement.
 
-### Week 3 -- Variables / Interaction
+### Week 3 -- Interaction
 * Topics
-  * Variables
+  * Interaction
   * MouseX and MouseY
 * Examples
+  * [Setup & Draw](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/01_setup_draw/index.html)
+  * [Interaction / Mouse Position]
+  * [Interaction / pmouse]
   * [Declaring Variables]
   * [Using Variables]
   * [Arithmetic]
