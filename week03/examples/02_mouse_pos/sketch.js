@@ -8,17 +8,17 @@ function draw() {
   ellipseMode(CENTER);
 
   fill (240, 0, 0);
-  ellipse(320, 320, 100, 100);
+  ellipse(mouseX, mouseY, 100, 100);
 
   fill (220, 0, 0);
-  ellipse(320, 320, 80, 80);
+  ellipse(mouseX, mouseY, 80, 80);
 
   fill (200, 0, 0);
-  ellipse(320, 320, 60, 60);
+  ellipse(mouseX, mouseY, 60, 60);
 
   fill (180, 0, 0);
-  ellipse(320, 320, 40, 40);
+  ellipse(mouseX, mouseY, 40, 40);
 
   fill (160, 0, 0);
-  ellipse(320, 320, 20, 20);
+  ellipse(mouseX, mouseY, 20, 20);
 }
