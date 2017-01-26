@@ -59,7 +59,7 @@
 * Examples
   * [Setup & Draw](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/01_setup_draw/index.html)
   * [Variables and Arithmetic](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/02_variables/index.html)
-  * [Built-in Variables](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/01_built_in_variables/index.html)
+  * [Built-in Variables](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/03_built_in_variables/index.html)
   * [Interaction / Mouse Position](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/04_mouse_pos/index.html)
   * [Interaction / pmouse](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/05_pmouse/index.html)
   * [No Background](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/06_nobackground/index.html)
