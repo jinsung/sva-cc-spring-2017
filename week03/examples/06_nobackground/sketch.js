@@ -4,7 +4,7 @@ function setup () {
 }
 
 function draw() {
-  var rand = random(10);
-  fill (rand * 10 + 100);
-  ellipse(width/2 + rand, height/2 + rand, mouseX, mouseY);
+  fill (mouseX / 3);
+//  ellipse(mouseX, mouseY, 20, 20);
+  ellipse(width/2, height/2, mouseX, mouseY);
 }
