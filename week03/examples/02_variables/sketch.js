@@ -1,5 +1,6 @@
 var xPosition = 320;
-var yPosition = 240
+var yPosition = 240;
+
 function setup() {
   createCanvas(640, 480);
   noStroke();
@@ -8,7 +9,7 @@ function setup() {
 function draw() {
   background(100);
   ellipseMode(CENTER);
-  
+
   fill (240, 0, 0);
   ellipse(xPosition, yPosition, 100, 100);
 

@@ -54,8 +54,12 @@
 * Topics
   * Comment
   * Setup & Draw & Background
+  * Variables
   * Interaction
   * MouseX and MouseY
+  * Animation
+  * Easing
+  * Advanced animation examples [01](http://thesystemis.com/projects/mesa-di-voce/) | [02](https://vimeo.com/150728260) | [03](http://box2d-js.sourceforge.net/index2.html)
 * Examples
   * [Setup & Draw](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/01_setup_draw/index.html)
   * [Variables and Arithmetic](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/02_variables/index.html)
@@ -63,6 +67,8 @@
   * [Interaction / Mouse Position](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/04_mouse_pos/index.html)
   * [Interaction / pmouse](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/05_pmouse/index.html)
   * [No Background](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/06_nobackground/index.html)
+  * [Random](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/07_random/index.html)
+  * [Easing](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/08_easing/index.html)
 
 ### Week 4 -- Conditionals
 * Topics
