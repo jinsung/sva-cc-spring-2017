@@ -5,7 +5,7 @@ var mySize
 var myTargetX;
 var myTargetY;
 
-function setup () {
+function setup () { 
 	createCanvas(640, 480);
 	
 	mySize = 30;
