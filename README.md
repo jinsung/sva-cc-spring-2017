@@ -50,7 +50,7 @@
    * Use different colors for stroke and fill
    * Use If statement.
 
-### Week 3 -- Interaction
+### Week 3 -- Variables and Animation
 * Topics
   * Comment
   * Setup & Draw & Background
@@ -70,7 +70,7 @@
   * [Random](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/07_random/index.html)
   * [Easing](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/08_easing/index.html)
 
-### Week 4 -- Conditionals
+### Week 4 -- Conditionals / Loop
 * Topics
   * If Else
   * Loop
@@ -90,7 +90,7 @@
 ### Week 6 -- Individual Checkup
 * One on one check up for Q and A session.
 
-### Week 7 -- Object and Arrays
+### Week 7 -- Object
 * Topics
   * OOP
   * List of variables and objects
