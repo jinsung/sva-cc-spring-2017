@@ -34,17 +34,31 @@ function draw() {
   circleX += speedX;
   circleY += speedY;
 
-  if (circleX > width - circleSize/2 || circleX < 0 + circleSize/2) {
+  if (circleX > width - circleSize/2 - leftSideBoxX - boxWidth &&
+     (circleY > rightSideBoxY && circleY < rightSideBoxY + boxHeight))  {
     speedX *= -1;
+  } else if (circleX < circleSize/2 + rightSideBoxY + boxWidth &&
+            (circleY > leftSideBoxY && circleY < leftSideBoxY + boxHeight)) {
+    //speedX *= -1;
   } else if (circleY > height - circleSize/2 || circleY < 0 + circleSize/2) {
     speedY *= -1;
   }
+
+  // events
+  if (keyIsPressed === true) {
+    if (keyCode === UP_ARROW) {
+      rightSideBoxY--;
+    } else if (keyCode === DOWN_ARROW) {
+      rightSideBoxY++;
+    }
+    if (keyCode === 115) {
+      leftSideBoxY--;
+    } else if (keyCode === 83) {
+      leftSideBoxY++;
+    }
+  }
 }
 
-function keyPressed() {
-  if (keyCode === UP_ARROW) {
-   rightSideBoxY--;
- } else if (keyCode === DOWN_ARROW) {
-   rightSideBoxY++;
- }
+function keyReleased() {
+
 }
