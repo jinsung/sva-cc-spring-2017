@@ -24,7 +24,7 @@ function draw() {
 	myRed = myRed +0.1;
 	myBlue = myBlue +0.5;
 	myGreen = myGreen -0.5;
-	mySizee = + mySizee +0.1;
+	mySizee = + mySizee +0.2;
 }
 
 
