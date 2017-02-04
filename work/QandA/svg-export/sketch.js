@@ -10,8 +10,8 @@ var x;
 var y;
 
 function setup() {
-  createCanvas(640, 480);
-  //background(0);
+  createCanvas(640, 480, SVG);
+  background(0);
 }
 
 function draw() {
@@ -28,5 +28,9 @@ function draw() {
   // Use values to draw an ellipse
   noStroke();
   fill(r, g, b, a);
-  line(mouseX, mouseY, size, size);
+  ellipse(x, y, size, size);
+}
+
+function mouseReleased() {
+  save();
 }
