@@ -1,13 +1,36 @@
+var myX;
+var myY;
+var mySize;
+var myTargetX;
+var myTargetY;
+
 function setup () {
-  createCanvas(640, 480);
+	createCanvas(480, 480);
+	
+	mySize = 20;
+	myX = random(width);
+	myY = random(height);
+	myTargetX = myX;
+	myTargetY = myY;
+	noStroke();
+
 }
 
 function draw() {
-  background (1
-  if (mouseIsPressed) {
-    fill(0);
-  } else {
-    fill(Math.random() * 255);
-  }
-  ellipse(mouseX, mouseY, 80, 80);
+	background (0);
+	var xDifferent = myTargetX - myX;
+	var yDifferent = myTargetY - myY;
+	var speed = 0.1;
+	myX = myX + xDifferent * speed;
+	myY = myY * yDifferent * speed;
+
+	fill (100);
+
+	ellipse(myX, myY, mySize, mySize);
+
+}
+
+function mouseClicked(){
+	myTargetX = mouseX;
+	myTargetY = mouseY;
 }
