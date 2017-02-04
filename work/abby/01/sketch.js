@@ -1,36 +1,30 @@
+var myRed;
+var myGreen;
+var myBlue;
+var mySize;
 var myX;
 var myY;
-var mySize;
-var myTargetX;
-var myTargetY;
 
 function setup () {
-	createCanvas(480, 400);
-
-	mySize = 20;
-	myX = random(width);
-	myY = random(height);
-	myTargetX = myX;
-	myTargetY = myY;
-	noStroke();
+	createCanvas(1080, 1080);
+	background(255, 204, 0);
 }
 
 function draw() {
-	background(0);
-	var xDifferent = myTargetX - myX;
-	var yDifferent = myTargetY - myY;
+	myRed = random(5);
+	myGreen = random(5);
+	myBlue = random(255);
 
-	myX = myX + xDifferent * 0.05;
-	myY = myY + yDifferent * 0.05;
+	mySize = random(20);
+	myX = random(width);
+	myY = random(height);
 
-	fill(255);
+	fill(myRed, myGreen, myBlue);
+	noFill();
+	strokeWeight(2);
+	stroke(15, 24, 280);
+	rect(20, 20, 60, 60);
 
-	ellipse(myX, myY, mySize, mySize);
-
-}
-
-function mouseClicked() {
-	myTargetX = mouseX;
-	myTargetY = mouseY;
+	rect(myX, myY, mySize, mySize);
 
 }
