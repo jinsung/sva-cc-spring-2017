@@ -11,7 +11,7 @@ var y;
 
 function setup() {
   createCanvas(640, 480);
-  background(0);
+  //background(0);
 }
 
 function draw() {
@@ -28,5 +28,5 @@ function draw() {
   // Use values to draw an ellipse
   noStroke();
   fill(r, g, b, a);
-  ellipse(x, y, size, size);
+  line(mouseX, mouseY, size, size);
 }
