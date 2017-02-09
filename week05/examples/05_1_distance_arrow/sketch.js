@@ -1,18 +1,19 @@
 var backgroundColor = 200;
-var target1X = 200;
-var target1Y = 150;
+
 
 function setup() {
   createCanvas(400, 400);
 }
 
 function draw() {
-  //backgroundColor = getDistance(target1X, target1Y, mouseX, mouseY);
+  var target1X = 100;
+  var target1Y = 150;
   background(backgroundColor);
 
   drawTarget(target1X, target1Y, 5, 80);
 
   drawArrow(mouseX, mouseY, target1X, target1Y);
+
 }
 
 function drawTarget(x, y, numOfCircles, targetSize, targetHue) {
@@ -32,10 +33,11 @@ function drawArrow(x1, y1, x2, y2) {
 
   // move canvas instead of elements
   // 2D trasformation - https://processing.org/tutorials/transform2d/
+  push();
   translate(x1, y1);
   rotate(angle);
   var length = 60;
-  var red = 255-getDistance(x1, y1, target1X, target1Y);
+  var red = 255-getDistance(x1, y1, x2, x2);
   stroke (red, 0, 0);
   fill (red, 0, 0);
   triangle(0, 0, 10, 3, 10, -3);
@@ -51,6 +53,7 @@ function drawArrow(x1, y1, x2, y2) {
   drawFeather(length * featherPos, 0, featherSize);
   featherPos += 0.1;
   drawFeather(length * featherPos, 0, featherSize);
+  pop();
 }
 
 function drawFeather(x1, y1, size) {
