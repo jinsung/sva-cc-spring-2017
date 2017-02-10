@@ -36,4 +36,3 @@ function mouseClicked() {
 	myTargetX = mouseX;
 	myTargetY = mouseY;
 }
-	
