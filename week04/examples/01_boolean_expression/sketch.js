@@ -9,7 +9,7 @@ function setup() {
 function draw() {
   background(r, g, b);
   /*
-   * boolean - true of false
+   * boolean - true or false
    * <, >, <=, >=, ==, !=
    */
 
