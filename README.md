@@ -94,6 +94,13 @@
   * Argument
   * Modularity
 * Examples
+  * [Bouncing Ball](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/01_bouncing_ball/index.html)
+  * [Bouncing Ball / Function](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/02_bouncing_ball_w_function/index.html)
+  * [Target](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/03_target_wo_function/index.html)
+  * [Target / Function](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/04_target_w_function/index.html)
+  * [Function Flow](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/04_1_function_flow/index.html)
+  * [Distance](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/05_0_distance/index.html)
+  * [Object 101](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/06_object_101/index.html)
 * Assignment : Generative art #2
   * Animate elements base on interaction
   * Use for loop

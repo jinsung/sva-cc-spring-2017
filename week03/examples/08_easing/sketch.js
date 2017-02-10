@@ -21,7 +21,7 @@ function draw() {
   var xDifferent = xTargetPosition - xPosition;
   var yDifferent = yTargetPosition - yPosition;
   var speed = 0.1;
-  //speed = 1.5; // spring
+  speed = 1.5; // spring
   xPosition = xPosition + xDifferent * speed;
   yPosition = yPosition + yDifferent * speed;
 }
