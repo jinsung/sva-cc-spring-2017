@@ -104,6 +104,7 @@
 * Assignment : Generative art #2
   * Animate elements base on interaction
   * Use for loop
+  * Make and use your Functions
 
 ### Week 6 -- Individual Checkup
 * One on one check up for Q and A session.
