@@ -47,5 +47,6 @@ function draw () {
 	line (mouseX, 100, pmouseX +100, pmouseY +10);
 	noFill();
 	ellipse(mouseX, mouseY, 20, 20);
+	strokeWeight(4);
 	stroke(0, green, blue + 100);
 }
