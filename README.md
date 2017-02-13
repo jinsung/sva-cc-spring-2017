@@ -50,7 +50,7 @@
    * Use different colors for stroke and fill
    * Use If statement.
 
-### Week 3 -- Interaction
+### Week 3 -- Variables and Animation
 * Topics
   * Comment
   * Setup & Draw & Background
@@ -70,11 +70,22 @@
   * [Random](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/07_random/index.html)
   * [Easing](https://jinsung.github.io/sva-cc-spring-2017/week03/examples/08_easing/index.html)
 
-### Week 4 -- Conditionals
+### Week 4 -- Conditionals / Loop
 * Topics
   * If Else
   * Loop
 * Examples
+  * [Boolean Expression](https://jinsung.github.io/sva-cc-spring-2017/week04/examples/01_boolean_expression/index.html)
+  * [Logical Operators](https://jinsung.github.io/sva-cc-spring-2017/week04/examples/02_logical_operator/index.html)
+  * [Button](https://jinsung.github.io/sva-cc-spring-2017/week04/examples/03_button/index.html)
+  * [Bouncing Ball](https://jinsung.github.io/sva-cc-spring-2017/week04/examples/04_bouncing_ball/index.html)
+  * [Physics 101](https://jinsung.github.io/sva-cc-spring-2017/week04/examples/05_gravity/index.html)
+  * [Many Lines](https://jinsung.github.io/sva-cc-spring-2017/week04/examples/06_many_lines/index.html)
+  * [Many Lines with Variables](https://jinsung.github.io/sva-cc-spring-2017/week04/examples/07_many_lines2/index.html)
+  * [While Loop](https://jinsung.github.io/sva-cc-spring-2017/week04/examples/08_while_loop/index.html)
+  * [For Loop](https://jinsung.github.io/sva-cc-spring-2017/week04/examples/09_for_loop/index.html)
+  * [For Loop 2](https://jinsung.github.io/sva-cc-spring-2017/week04/examples/10_customization/index.html)
+  * [For Loop 3](https://jinsung.github.io/sva-cc-spring-2017/week04/examples/11_for_loop2/index.html)
 
 ### Week 5 -- Functions / Arrays - Assignment 1 due date
 * Assignment review
@@ -83,14 +94,22 @@
   * Argument
   * Modularity
 * Examples
+  * [Bouncing Ball](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/01_bouncing_ball/index.html)
+  * [Bouncing Ball / Function](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/02_bouncing_ball_w_function/index.html)
+  * [Target](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/03_target_wo_function/index.html)
+  * [Target / Function](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/04_target_w_function/index.html)
+  * [Function Flow](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/04_1_function_flow/index.html)
+  * [Distance](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/05_0_distance/index.html)
+  * [Object 101](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/06_object_101/index.html)
 * Assignment : Generative art #2
   * Animate elements base on interaction
   * Use for loop
+  * Make and use your Functions
 
 ### Week 6 -- Individual Checkup
 * One on one check up for Q and A session.
 
-### Week 7 -- Object and Arrays
+### Week 7 -- Object
 * Topics
   * OOP
   * List of variables and objects
