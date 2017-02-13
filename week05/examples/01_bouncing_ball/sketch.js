@@ -11,24 +11,19 @@ function setup() {
 function draw() {
   background(100);
 
-  move();
-  bounce();
-  draw();
-}
+  stroke(0);
 
-function move() {
+  // Change poistion of circle
   circleX = circleX + speedX;
   circleY = circleY + speedY;
-}
 
-function bounce() {
+  // Check if circle reached an edge, reverse speed
   if (circleX > width || circleX < 0) {
     speedX *= -1;
   } else if (circleY > height || circleY < 0) {
     speedY *= -1;
   }
-}
 
-function draw() {
+  // Display circle at circleX, and circleY position
   ellipse(circleX, circleY, circleSize, circleSize);
 }
