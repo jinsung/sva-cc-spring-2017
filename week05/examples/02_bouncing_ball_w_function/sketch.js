@@ -14,7 +14,7 @@ function draw() {
 
   move();
   bounce();
-  draw();
+  drawCircle();
 }
 
 function move() {
@@ -30,6 +30,6 @@ function bounce() {
   }
 }
 
-function draw() {
+function drawCircle() {
   ellipse(circleX, circleY, circleSize, circleSize);
 }
