@@ -13,7 +13,6 @@ function draw() {
 }
 
 function drawCircle() {
-
   fill (0);
   ellipse(xPosition, yPosition, 40, 40);
 
@@ -31,7 +30,6 @@ function drawRobot(x, y, width, height, isOn) {
 
 function drawHead(x, y, width, height, isOn) {
   fill(90);
-  // x:220, y:240, width: 260, height: 400
   rect(x, y - height * 0.25, width * 0.08, height * 0.1 );
   rect(x, y + height * 0.1, width, height * 0.6);
   if (isOn) {
