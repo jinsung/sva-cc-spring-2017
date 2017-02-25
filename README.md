@@ -111,8 +111,18 @@
 
 ### Week 7 -- Object
 * Topics
-  * OOP
-  * List of variables and objects
+  * Object
+  * Object - Person, Car, Moving Circle, or Robot
+  * Wrapped Function (Class) - Prototype, Cookie cutter, or Blue print.
+  * OOP - New operator
+* Examples
+  * [Bouncing Ball - Object](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/01_object_101/index.html)
+  * [Bouncing Ball - Separate file](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/02_separate_file/index.html)
+  * [Robot](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/03_kimberly_robot/index.html)
+  * [Robot - Object](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/04_kimberly_obj_robot/index.html)
+  * [Bouncing Ball - Nature](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/05_ball_in_nature/index.html)
+  * [Bouncing Ball - Nature2](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/06_ball_in_nature2/index.html)
+
 
 ### Week 8 -- Multiple JS fils / Event and Callback Function
 * Topics
