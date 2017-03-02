@@ -87,7 +87,7 @@
   * [For Loop 2](https://jinsung.github.io/sva-cc-spring-2017/week04/examples/10_customization/index.html)
   * [For Loop 3](https://jinsung.github.io/sva-cc-spring-2017/week04/examples/11_for_loop2/index.html)
 
-### Week 5 -- Functions / Arrays - Assignment 1 due date
+### Week 5 -- Functions - Assignment 1 due date
 * Assignment review
 * Topics
   * Define and Calling Functions
@@ -109,7 +109,7 @@
 ### Week 6 -- Individual Checkup
 * One on one check up for Q and A session.
 
-### Week 7 -- Object
+### Week 7 -- Object / Vector / Force
 * Topics
   * Object
   * Object - Person, Car, Moving Circle, or Robot
@@ -123,30 +123,35 @@
   * [Bouncing Ball - Nature](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/05_ball_in_nature/index.html)
   * [Bouncing Ball - Nature2](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/06_ball_in_nature2/index.html)
 
-
-### Week 8 -- Multiple JS fils / Event and Callback Function
+### Week 8 -- Arrays / Particle System
 * Topics
-  * How to make multiple files
-  * Clicking on objects
+  * What is an array?
+  * Particle System
+* Examples
 
-### Week 9 -- Data
+### Week 9 -- Image / Flocking / Noise
 * Topics
-  * Algorithms
-  * Debugging
-  * Libraries
-
-### Week 10 -- Media - - Assignment 2 due date
-* Assignment review
-* Topics
-  * Video Import & Playback
+  * Display Image
+  * Particle interaction
+  * Flocking movement
   * Pixel manipulation
 
-### Week 11 -- Final Project Proposals
-
-### Week 12 -- Perlin Noise
+### Week 10 -- Sound / Video - - Assignment 2 due date
+* Assignment review
 * Topics
-  * What is Perlin Noise
-  * Draw better random numbers
+  * Import Sound and Video
+  * Playback
+
+### Week 11 -- Data / Debugging -- Final Project Proposals
+* Topics
+  * JSON
+  * Algorithms
+  * Debugging
+
+### Week 12 -- Network
+* Topics
+  * Get data from Internet
+  * Libraries
 
 ### Week 13 -- Final Project Troubleshoot and Debugging
 
