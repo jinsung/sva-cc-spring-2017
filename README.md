@@ -136,7 +136,7 @@
   * Flocking movement
   * Pixel manipulation
 
-### Week 10 -- Sound / Video - - Assignment 2 due date
+### Week 10 -- Sound / Video -- Assignment 2 due date
 * Assignment review
 * Topics
   * Import Sound and Video
@@ -148,12 +148,16 @@
   * Algorithms
   * Debugging
 
-### Week 12 -- Network
+### Week 12 -- Coord System / Network
 * Topics
+  * push and pop matrix
   * Get data from Internet
   * Libraries
 
-### Week 13 -- Final Project Troubleshoot and Debugging
+### Week 13 -- 3D -- Final Project Troubleshoot and Debugging
+* Topics
+  * 3D
+  * Javascript
 
 ### Week 14 -- Final Project Presentation
 
