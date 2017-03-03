@@ -13,14 +13,17 @@ function setup() {
 }
 
 function draw() {
+  //background(10, 10, 10, 10);
   background(10);
   fill (150);
   ellipse(xPosition, yPosition, 100, 100);
 
   var xDifferent = xTargetPosition - xPosition;
   var yDifferent = yTargetPosition - yPosition;
-  xPosition = xPosition + xDifferent * 0.05;
-  yPosition = yPosition + yDifferent * 0.05;
+  var speed = 0.1;
+  speed = 1.5; // spring
+  xPosition = xPosition + xDifferent * speed;
+  yPosition = yPosition + yDifferent * speed;
 }
 
 function mouseClicked() {
