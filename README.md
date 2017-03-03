@@ -116,18 +116,24 @@
   * Wrapped Function (Class) - Prototype, Cookie cutter, or Blue print.
   * OOP - New operator
 * Examples
-  * [Bouncing Ball - Object](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/01_object_101/index.html)
-  * [Bouncing Ball - Separate file](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/02_separate_file/index.html)
-  * [Robot](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/03_kimberly_robot/index.html)
-  * [Robot - Object](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/04_kimberly_obj_robot/index.html)
-  * [Bouncing Ball - Nature](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/05_ball_in_nature/index.html)
-  * [Bouncing Ball - Nature2](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/06_ball_in_nature2/index.html)
+  * [Bouncing Ball - Object](https://jinsung.github.io/sva-cc-spring-2017/week07/examples/01_object_101/index.html)
+  * [Bouncing Ball - Separate file](https://jinsung.github.io/sva-cc-spring-2017/week07/examples/02_separate_file/index.html)
+  * [Robot](https://jinsung.github.io/sva-cc-spring-2017/week07/examples/03_kimberly_robot/index.html)
+  * [Robot - Object](https://jinsung.github.io/sva-cc-spring-2017/week07/examples/04_kimberly_obj_robot/index.html)
+  * [Bouncing Ball - Nature](https://jinsung.github.io/sva-cc-spring-2017/week07/examples/05_ball_in_nature/index.html)
+  * [Bouncing Ball - Nature2](https://jinsung.github.io/sva-cc-spring-2017/week07/examples/06_ball_in_nature2/index.html)
 
 ### Week 8 -- Arrays / Particle System
 * Topics
   * What is an array?
   * Particle System
 * Examples
+  * [Array 101](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/02_array_101/index.html)
+  * [Array 102](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/03_array_102/index.html)
+  * [Array 102-1](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/03_array_102-1/index.html)
+  * [Particle System](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/04_particle_system/index.html)
+  * [Particle System : Grid](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/05_particle_system_grid/index.html)
+  * [Particle System : Force](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/06_particle_system_force/index.html)
 
 ### Week 9 -- Image / Flocking / Noise
 * Topics
