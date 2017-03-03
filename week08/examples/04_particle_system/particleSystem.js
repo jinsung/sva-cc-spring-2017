@@ -12,7 +12,7 @@ function ParticleSystem() {
   }
 
   this.update = function () {
-
+    
   }
 
   this.draw = function () {

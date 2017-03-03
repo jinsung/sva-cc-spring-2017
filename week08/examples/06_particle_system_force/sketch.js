@@ -1,4 +1,3 @@
-var numOfParticles = 100;
 var particleSystem;
 
 function setup() {
@@ -7,12 +6,13 @@ function setup() {
   noStroke();
 
   particleSystem = new ParticleSystem();
-  particleSystem.setup(numOfParticles);
+  particleSystem.setup();
 }
 
 function draw() {
   background(100);
-
-  particleSystem.update();
+  if (mouseIsPressed) {
+    particleSystem.addParticle(mouseX, mouseY, 10);
+  }
   particleSystem.draw();
 }
