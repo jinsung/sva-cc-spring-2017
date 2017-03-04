@@ -5,7 +5,7 @@ function Circle () {
 
 	this.size;
 
-	this.setup = function (pos_, size_) {
+	this.setup = function(pos_, size_) {
 		this.position = pos_.copy();
 		this.velocity = createVector(0, 0);
 		this.acceleration = createVector(0, 0);
@@ -25,7 +25,7 @@ function Circle () {
 		this.acceleration.mult(0);
 	}
 
-	this.checkEdges = function () {
+	this.checkEdges = function() {
 		if (this.position.x < 0) {
 			this.position.x = 0;
 			this.velocity.x *= -1;
