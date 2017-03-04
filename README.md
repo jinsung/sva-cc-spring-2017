@@ -87,50 +87,83 @@
   * [For Loop 2](https://jinsung.github.io/sva-cc-spring-2017/week04/examples/10_customization/index.html)
   * [For Loop 3](https://jinsung.github.io/sva-cc-spring-2017/week04/examples/11_for_loop2/index.html)
 
-### Week 5 -- Functions / Arrays - Assignment 1 due date
+### Week 5 -- Functions - Assignment 1 due date
 * Assignment review
 * Topics
   * Define and Calling Functions
   * Argument
   * Modularity
 * Examples
+  * [Bouncing Ball](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/01_bouncing_ball/index.html)
+  * [Bouncing Ball / Function](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/02_bouncing_ball_w_function/index.html)
+  * [Target](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/03_target_wo_function/index.html)
+  * [Target / Function](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/04_target_w_function/index.html)
+  * [Function Flow](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/04_1_function_flow/index.html)
+  * [Distance](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/05_0_distance/index.html)
+  * [Object 101](https://jinsung.github.io/sva-cc-spring-2017/week05/examples/06_object_101/index.html)
 * Assignment : Generative art #2
   * Animate elements base on interaction
   * Use for loop
+  * Make and use your Functions
 
 ### Week 6 -- Individual Checkup
 * One on one check up for Q and A session.
 
-### Week 7 -- Object
+### Week 7 -- Object / Vector / Force
 * Topics
-  * OOP
-  * List of variables and objects
+  * Object
+  * Object - Person, Car, Moving Circle, or Robot
+  * Wrapped Function (Class) - Prototype, Cookie cutter, or Blue print.
+  * OOP - New operator
+* Examples
+  * [Bouncing Ball - Object](https://jinsung.github.io/sva-cc-spring-2017/week07/examples/01_object_101/index.html)
+  * [Bouncing Ball - Separate file](https://jinsung.github.io/sva-cc-spring-2017/week07/examples/02_separate_file/index.html)
+  * [Robot](https://jinsung.github.io/sva-cc-spring-2017/week07/examples/03_kimberly_robot/index.html)
+  * [Robot - Object](https://jinsung.github.io/sva-cc-spring-2017/week07/examples/04_kimberly_obj_robot/index.html)
+  * [Bouncing Ball - Nature](https://jinsung.github.io/sva-cc-spring-2017/week07/examples/05_ball_in_nature/index.html)
+  * [Bouncing Ball - Nature2](https://jinsung.github.io/sva-cc-spring-2017/week07/examples/06_ball_in_nature2/index.html)
 
-### Week 8 -- Multiple JS fils / Event and Callback Function
+### Week 8 -- Arrays / Particle System
 * Topics
-  * How to make multiple files
-  * Clicking on objects
+  * What is an array?
+  * Particle System
+* Examples
+  * [Array 101](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/02_array_101/index.html)
+  * [Array 102](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/03_array_102/index.html)
+  * [Array 102-1](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/03_array_102-1/index.html)
+  * [Particle System](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/04_particle_system/index.html)
+  * [Particle System : Grid](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/05_particle_system_grid/index.html)
+  * [Particle System : Force](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/06_particle_system_force/index.html)
 
-### Week 9 -- Data
+### Week 9 -- Image / Flocking / Noise
 * Topics
-  * Algorithms
-  * Debugging
-  * Libraries
-
-### Week 10 -- Media - - Assignment 2 due date
-* Assignment review
-* Topics
-  * Video Import & Playback
+  * Display Image
+  * Particle interaction
+  * Flocking movement
   * Pixel manipulation
 
-### Week 11 -- Final Project Proposals
-
-### Week 12 -- Perlin Noise
+### Week 10 -- Sound / Video -- Assignment 2 due date
+* Assignment review
 * Topics
-  * What is Perlin Noise
-  * Draw better random numbers
+  * Import Sound and Video
+  * Playback
 
-### Week 13 -- Final Project Troubleshoot and Debugging
+### Week 11 -- Data / Debugging -- Final Project Proposals
+* Topics
+  * JSON
+  * Algorithms
+  * Debugging
+
+### Week 12 -- Coord System / Network
+* Topics
+  * push and pop matrix
+  * Get data from Internet
+  * Libraries
+
+### Week 13 -- 3D -- Final Project Troubleshoot and Debugging
+* Topics
+  * 3D
+  * Javascript
 
 ### Week 14 -- Final Project Presentation
 
