@@ -1,15 +1,23 @@
 var particleSystem;
 
+function preload() {
+  myImage = loadImage("assets/cc.png");
+}
+
 function setup() {
   createCanvas( 400, 400 );
+  createCanvas( 500, 500 );
+  image(myImage, 0, 0);
+  loadPixels();
+
   noStroke();
 
   particleSystem = new ParticleSystem();
-  particleSystem.setup();
+  particleSystem.setup(pixels);
 }
 
 function draw() {
-  background(100);
+  background(0);
   if (mouseIsPressed) {
     particleSystem.addParticle(mouseX, mouseY, 10);
   }
