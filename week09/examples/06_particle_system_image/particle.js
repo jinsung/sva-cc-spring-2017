@@ -4,8 +4,8 @@ function Particle() {
     this.vel = createVector(0, 0);
     this.acc = createVector(0, 0);
     this.age = 0;
-    this.size = 3;
-    this.lifeSpan = 100;
+    this.size = 5;
+    this.lifeSpan = 10000;
     this.isDead = false;
     this.mass = Math.random() + 0.1 * 10.0;
     this.damping = 1.00;
@@ -16,7 +16,8 @@ function Particle() {
     this.acc.add(f);
   }
 
-  this.update = function () {
+  this.update = function (color) {
+    this.color = color;
     this.age ++;
     if (this.age > this.lifeSpan ||
         (this.pos.x < 0 || this.pos.x > width) ||
@@ -30,8 +31,10 @@ function Particle() {
   }
 
   this.draw = function (index) {
-    fill(255, 255, 255, (1 - this.age/this.lifeSpan) * 255);
+    push();
+    fill(this.color);
     ellipse(this.pos.x, this.pos.y, this.size, this.size);
+    pop();
   }
 
 }

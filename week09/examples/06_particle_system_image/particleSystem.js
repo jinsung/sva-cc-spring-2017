@@ -1,7 +1,8 @@
 function ParticleSystem() {
 
-  this.setup = function () {
+  this.setup = function (pixels) {
     this.particles = [];
+    this.pixels = pixels;
   }
 
   this.addParticle = function (x, y, amt) {
@@ -24,7 +25,11 @@ function ParticleSystem() {
         this.particles.splice(i, 1);
       } else {
         //p.addForce(gravity);
-        p.update();
+        var d = pixelDensity();
+        var pixelIndex = (parseInt(p.pos.x) + (parseInt(p.pos.y) * height) * d) * d * 4;
+        var c = color (this.pixels[pixelIndex], this.pixels[pixelIndex+1], this.pixels[pixelIndex+2]);
+        p.update(c);
+        //fill (pixels[pixelIndex], pixels[pixelIndex+1], pixels[pixelIndex+2], pixels[pixelIndex+3]);
         p.draw();
       }
     }
