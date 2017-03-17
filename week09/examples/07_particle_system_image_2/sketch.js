@@ -5,7 +5,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas( 500, 500 );
+  createCanvas( 500, 500);
   image(myImage, 0, 0);
   loadPixels();
 
@@ -18,7 +18,7 @@ function setup() {
 function draw() {
   background(0);
   if (mouseIsPressed) {
-    particleSystem.addParticle(mouseX, mouseY, 10);
+    particleSystem.addParticle(mouseX, mouseY, 2);
   }
   particleSystem.draw();
 }

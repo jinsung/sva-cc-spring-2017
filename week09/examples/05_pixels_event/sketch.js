@@ -33,6 +33,5 @@ function draw() {
   var pixelIndex = (mouseX + (mouseY * myImage.height) * d) * d * 4;
 
   fill (pixels[pixelIndex], pixels[pixelIndex+1], pixels[pixelIndex+2], pixels[pixelIndex+3]);
-  var size = 10;
   ellipse(mouseX, mouseY, size, size);
 }
