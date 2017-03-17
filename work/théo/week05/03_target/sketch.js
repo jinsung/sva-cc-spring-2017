@@ -12,7 +12,7 @@ function draw() {
 }
 
 
-function drawTarget( x, y, circleSize ) {
+function drawTarget( x, y, circleSize, numOfCircles ) {
 	circleSize = 300;
 	var numOfCircles = 10;
 	for (var i =0; i < numOfCircles; i++) {

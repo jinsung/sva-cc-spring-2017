@@ -2,21 +2,21 @@ function Ball() {
   this.position;
   this.acceleration;
   this.velocity;
-  this.mess;
+  this.mass;
   this.canvasWidth;
   this.canvasHeight;
 
-  this.setup = function(pos, mess, canvasWidth, canvasHeight) {
+  this.setup = function(pos, mass, canvasWidth, canvasHeight) {
     this.position = pos.copy();
     this.velocity = createVector(0, 0);
     this.acceleration = createVector(0, 0);
-    this.mess = mess;
+    this.mass = mass;
     this.canvasWidth = canvasWidth;
     this.canvasHeight = canvasHeight
   }
 
   this.addForce = function (force) {
-    var f = force.copy().div(this.mess);
+    var f = force.copy().div(this.mass);
     this.acceleration.add(f);
   }
 
@@ -46,7 +46,7 @@ function Ball() {
   }
 
   this.draw = function() {
-    var size = this.mess * 10;
+    var size = this.mass * 10;
     ellipse(this.position.x, this.position.y, size, size);
   }
 }
