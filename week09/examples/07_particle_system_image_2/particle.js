@@ -8,12 +8,44 @@ function Particle() {
     this.lifeSpan = 10000;
     this.isDead = false;
     this.mass = Math.random() + 0.1 * 10.0;
-    this.damping = 0.99;
+    this.damping = 0.985;
+    this.maxForce = 0.1;
+    this.maxSpeed = 4;
   }
 
   this.addForce = function (force) {
     var f = force.copy().div(this.mass);
     this.acc.add(f);
+  }
+
+  this.separate = function (others) {
+    var desiredSeparation = this.size * 0.5;
+    var sumForce = createVector(0.0, 0.0);
+    var count = 0;
+    for (var i = 0; i < others.length; i++) {
+      var distance = p5.Vector.dist(this.pos, others[i].pos);
+      if ( distance > 0 && distance < desiredSeparation ) {
+        var difference = p5.Vector.sub(this.pos, others[i].pos);
+        difference.normalize();
+        difference.div(distance); // Weight by distance
+        sumForce.add(difference);
+        count++;
+      }
+    }
+    // Average -- divide by how many
+    if ( count > 0 ) {
+      sumForce.div(count);
+    }
+
+    // As long as the vector is greater than 0
+    if (sumForce.mag() > 0) {
+      sumForce.normalize();
+      sumForce.mult(this.maxSpeed);
+      sumForce.sub(this.vel);
+      sumForce.limit(this.maxForce);
+    }
+    this.addForce(sumForce);
+    //return sumForce;
   }
 
   this.update = function (color) {
