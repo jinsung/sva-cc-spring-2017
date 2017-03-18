@@ -1,15 +1,30 @@
-var ps;
-var time;
+var myImage;
+
+function preload () {
+	myImage = loadImage("assets/image.png");
+}
+
 function setup () {
-	createCanvas(800, 800);
-	time = 0;
-	smooth();
-	ps = new ParticleSystem();
-	ps.setup(10);
+	createCanvas(500, 500);
+	image(myImage, 0, 0, width, height);
+	noStroke();
+	loadPixels();
+
+	rect (0, 0, width, height);
+
+	var d = pixelDensity();
+	var gap = 8;
+	var size = 4;
+	for (var py = 0; py < myImage.height; py += gap) {
+		for (var px = 0; px < myImage.width; px += gap) {
+			var pixelIndex = (px + ((py * myImage.height) * d)) * d * 4;
+			fill(pixels[pixelIndex], pixels[pixelIndex + 1], pixels[pixelIndex + 2], pixels[pixelIndex +3]);
+			size = (pixels[pixelIndex]/255) * 10.0
+			ellipse(px + size/2, py + size/2, size, size);
+		}
+	}	
 }
 
 function draw () {
-	time++;
-	background(100);
-	ps.draw(time);
+	//background(100);
 }
