@@ -1,4 +1,6 @@
 function Rocket () {
+  this.width = 20;
+  this.height = 10;
   this.setup = function (loc) {
     this.loc = createVector(loc.x, loc.y);
     this.acc = createVector(0, 0);
@@ -22,6 +24,17 @@ function Rocket () {
     this.loc.add(this.vel);
     this.vel.mult(0.98);
     this.acc.mult(0);
+    if (this.loc.x < 0) {
+      this.loc.x = width;
+    } else if (this.loc.x > width) {
+      this.loc.x = 0;
+    }
+    if (this.loc.y < 0) {
+      this.loc.y = height;
+    } else if (this.loc.y > height) {
+      this.loc.y = 0;
+    }
+
   };
 
   this.draw = function () {
@@ -31,12 +44,20 @@ function Rocket () {
     fill(255, 0, 0);
     noStroke();
 
-    var rocketWidth = 20;
-    var rocketHeight = 10;
-    triangle(rocketWidth/2, 0,
-             -rocketWidth/2, -rocketHeight/2,
-             -rocketWidth/2, rocketHeight/2);
-//    ellipse(this.loc.x, this.loc.y, this.size, this.size);
+    triangle(this.width/2, 0,
+             -this.width/2, -this.height/2,
+             -this.width/2, this.height/2);
     pop();
   };
+
+  this.isHit = function (asteroids) {
+    for (var i = 0; i < asteroids.length; i++) {
+      var a = asteroids[i];
+      var distance = p5.Vector.dist(this.loc, a.loc);
+      if (distance < (this.width/2 + a.size/2)) {
+        return true;
+      }
+    }
+    return false;
+  }
 }

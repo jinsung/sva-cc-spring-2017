@@ -31,7 +31,7 @@ function AsteroidSystem () {
     for (var i = 0; i < this.asteroids.length; i++) {
 
       this.asteroids[i].update();
-
+      this.asteroids[i].separate(this.asteroids);
       if (this.asteroids[i].isOutOfCanvas()) {
         this.asteroids.splice(i, 1);
       }
@@ -39,9 +39,7 @@ function AsteroidSystem () {
   }
 
   this.draw = function () {
-
     for (var i = 0; i < this.asteroids.length; i++) {
-
       this.asteroids[i].draw();
     }
   };
