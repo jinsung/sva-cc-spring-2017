@@ -2,7 +2,7 @@ function Particle() {
 	this.setup = function (x, y) {
 		this.x = x;
 		this.y = y;
-		this.size = 10;
+		this.size = mySize;
 	}
 
 	this.draw = function() {

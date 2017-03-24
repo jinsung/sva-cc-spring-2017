@@ -12,6 +12,13 @@
 - [Getting Started with p5.js](http://amzn.to/1PmztVt)
 - [Learning Processing](http://learningprocessing.com/)
 
+## Start Local Web Server.
+* Open Terminal
+  * In Finder, open to /Applications/Utilities/Terminal
+  * type cd {yourProjectFolder}
+  * python -m SimpleHTTPServer 8000
+  * in brower go to localhost:8000
+
 ## SYLLABUS
 
 ### Week 1 -- Introduction
