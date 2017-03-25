@@ -1,4 +1,4 @@
-function Circle () {
+function Circle() {
 	this.position;
 	this.velocity;
 	this.acceleration;
@@ -12,20 +12,18 @@ function Circle () {
 		this.size = size_;
 	}
 
-	this.addForce = function(force) {
+	this.addForce = function (force) {
 		this.acceleration.add(force);
 	}
 
 	this.moveCircle = function() {
-		var mass = this.size / 20;
-		var acc = this.acceleration.div(mass);
 		this.velocity.add(this.acceleration);
 		this.position.add(this.velocity);
 
 		this.acceleration.mult(0);
 	}
 
-	this.checkEdges = function () {
+	this.checkEdges = function() {
 		if (this.position.x < 0) {
 			this.position.x = 0;
 			this.velocity.x *= -1;
@@ -41,9 +39,11 @@ function Circle () {
 			this.position.y = height;
 			this.velocity.y *= -1;
 		}
+
 	}
 
 	this.drawCircle = function() {
 		ellipse(this.position.x, this.position.y, this.size, this.size);
+
 	}
 }

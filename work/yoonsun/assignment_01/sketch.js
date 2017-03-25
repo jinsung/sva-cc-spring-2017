@@ -4,9 +4,6 @@ var buttonWidth;
 var buttonHeight;
 var pressed;
 
-var r;
-var g;
-var b;
 var a;
 
 var size;
