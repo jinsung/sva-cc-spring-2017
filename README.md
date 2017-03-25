@@ -12,6 +12,13 @@
 - [Getting Started with p5.js](http://amzn.to/1PmztVt)
 - [Learning Processing](http://learningprocessing.com/)
 
+## Start Local Web Server.
+* Open Terminal
+  * In Finder, open to /Applications/Utilities/Terminal
+  * type cd {yourProjectFolder}
+  * python -m SimpleHTTPServer 8000
+  * in brower go to localhost:8000
+
 ## SYLLABUS
 
 ### Week 1 -- Introduction
@@ -147,13 +154,13 @@
   * [Pixels 1](https://jinsung.github.io/sva-cc-spring-2017/week09/examples/04_pixels/index.html)
   * [Pixels 2](https://jinsung.github.io/sva-cc-spring-2017/week09/examples/05_pixels_event/index.html)
   * [Particle System : Image](https://jinsung.github.io/sva-cc-spring-2017/week09/examples/06_particle_system_image/index.html)
-  * [Particle System : Flocking](https://jinsung.github.io/sva-cc-spring-2017/week09/examples/07_particle_system_image2/index.html)
+  * [Particle System : Flocking](https://jinsung.github.io/sva-cc-spring-2017/week09/examples/07_particle_system_image_2/index.html)
 
-### Week 10 -- Sound / Video -- Assignment 2 due date
+### Week 10 -- Vector Math / Asteroid Game -- Assignment 2 due date
 * Assignment review
 * Topics
-  * Import Sound and Video
-  * Playback
+  * Vector Math
+  * [Asteroid Game](https://jinsung.github.io/sva-cc-spring-2017/week10/examples/01/index.html)
 
 ### Week 11 -- Data / Debugging -- Final Project Proposals
 * Topics
