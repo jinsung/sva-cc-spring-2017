@@ -13,11 +13,10 @@
 - [Learning Processing](http://learningprocessing.com/)
 
 ## Start Local Web Server.
-* Open Terminal
-  * In Finder, open to /Applications/Utilities/Terminal
-  * type cd {yourProjectFolder}
-  * python -m SimpleHTTPServer 8000
-  * in brower go to localhost:8000
+ * In Finder, open Terminal that is located in /Applications/Utilities/Terminal
+ * cd {yourProjectFolder} or drag your project folder
+ * python -m SimpleHTTPServer 8000
+ * in brower go to localhost:8000
 
 ## SYLLABUS
 
