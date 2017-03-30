@@ -135,7 +135,7 @@
   * [Particle System : Grid](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/05_particle_system_grid/index.html)
   * [Particle System : Force](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/06_particle_system_force/index.html)
 
-### Week 9 -- Image / Flocking / Noise
+### Week 9 -- Image / Flocking
 * Topics
   * Display Image
   * Particle interaction
@@ -149,11 +149,11 @@
   * [Particle System : Image](https://jinsung.github.io/sva-cc-spring-2017/week09/examples/06_particle_system_image/index.html)
   * [Particle System : Flocking](https://jinsung.github.io/sva-cc-spring-2017/week09/examples/07_particle_system_image2/index.html)
 
-### Week 10 -- Sound / Video -- Assignment 2 due date
+### Week 10 -- Asteroid -- Assignment 2 due date
 * Assignment review
 * Topics
-  * Import Sound and Video
-  * Playback
+  * Make Asteroid Game
+
 
 ### Week 11 -- Data / Debugging -- Final Project Proposals
 * Topics
