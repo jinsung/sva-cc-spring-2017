@@ -1,25 +1,25 @@
-var circleX = 10;
-var circleY = 20;
+var position;
 var circleSize = 20;
-var speedX = 2;
-var speedY = 2.1;
+var speedVec;
 
 function setup() {
   createCanvas(400, 400);
+  position = createVector(100, 100);
+  speedVec = createVector(2, 2.5);
 }
 
 function draw() {
   background(100);
 
   stroke(0);
-  ellipse(circleX, circleY, circleSize, circleSize);
-  circleX += speedX;
-  circleY += speedY;
+  position.sub(speedVec);
+  ellipse(position.x, position.y, circleSize, circleSize);
+  
 
-  if (circleX > width || circleX < 0) {
-    speedX *= -1;
-  } else if (circleY > height || circleY < 0) {
-    speedY *= -1;
+  if (position.x > width || position.x < 0) {
+    speedVec.x *= -1;
+  } else if (position.y > height || position.y < 0) {
+    speedVec.y *= -1;
   }
 
 }
