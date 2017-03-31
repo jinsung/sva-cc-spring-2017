@@ -3,10 +3,11 @@ function AsteroidSystem () {
     this.asteroids = [];
   };
 
-  this.addAsteroid = function (rocketLoc) {
+  this.spawnAsteroid = function () {
+    var size = 50.0;
     var speed = 0.5;
     var angleDiff = 0.4;
-    var asteroid = new Asteroid();
+
     var prop = Math.random();
     var loc = createVector( random(0, width), 0 );
     var force = createVector( random(), 1.0 );
@@ -22,20 +23,41 @@ function AsteroidSystem () {
     }
     force.normalize();
     force.mult(speed);
-    asteroid.setup( loc );
-    asteroid.addForce(force);
-    this.asteroids.push(asteroid);
+    this.addAsteroid(loc, force, size);
   };
 
+  this.addAsteroid = function (loc, force, size) {
+    var asteroid = new Asteroid();
+    asteroid.setup( loc.copy(), size );
+    asteroid.addForce(force.copy());
+    this.asteroids.push(asteroid);
+  }
+
   this.update = function () {
-    for (var i = 0; i < this.asteroids.length; i++) {
+    for (var i = this.asteroids.length - 1; i >= 0 ; i--) {
 
       this.asteroids[i].update();
       this.asteroids[i].separate(this.asteroids);
-      if (this.asteroids[i].isOutOfCanvas()) {
+      if (this.asteroids[i].isDead) {
         this.asteroids.splice(i, 1);
       }
     }
+  }
+
+  this.hit = function(asteroidIndex) {
+    var loc = this.asteroids[asteroidIndex].loc.copy();
+    var origHeadingAngle = this.asteroids[asteroidIndex].acc.heading();
+    var headingAngle1 = origHeadingAngle + Math.PI/2.0;
+    var headingAngle2 = origHeadingAngle - Math.PI/2.0;
+    var size = this.asteroids[asteroidIndex].size * 0.5;
+    this.asteroids.splice(asteroidIndex, 1);
+    this.addAsteroid(loc,
+                     p5.Vector.fromAngle(headingAngle1).mult(5),
+                     size);
+    this.addAsteroid(loc,
+                     p5.Vector.fromAngle(headingAngle2).mult(5),
+                     size);
+
   }
 
   this.draw = function () {
