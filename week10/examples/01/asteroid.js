@@ -1,15 +1,19 @@
 function Asteroid () {
 
-  this.setup = function (loc) {
-    this.size = 50;
+  this.setup = function (loc, size) {
+    this.size = size;
     this.loc = createVector(loc.x, loc.y);
     this.vel = createVector(0, 0);
     this.acc = createVector(0, 0);
+    this.isDead = false;
   };
 
   this.addForce = function (force) {
     this.acc.add(force);
+  }
 
+  this.hit = function () {
+    this.size /= 2.0;
   }
 
   this.update = function () {
@@ -17,7 +21,11 @@ function Asteroid () {
       this.vel.limit(0.5);
       this.loc.add(this.vel);
       this.vel.mult(0);
-      //this.acc.mult(0);
+
+      if (this.size < 10 || this.loc.x > width || this.loc.x < 0 ||
+          this.loc.y > height || this.loc.y < 0 ) {
+        this.isDead = true;
+      }
   };
 
   this.draw = function () {
@@ -47,11 +55,5 @@ function Asteroid () {
     this.addForce(sumForce);
   }
 
-  this.isOutOfCanvas = function () {
-    if (this.loc.x > width || this.loc.x < 0 ||
-        this.loc.y > height || this.loc.y < 0 ) {
-      return true;
-    }
-    return false;
-  }
+
 }

@@ -1,12 +1,13 @@
 function Rocket () {
-  this.width = 20;
-  this.height = 10;
+
   this.setup = function (loc) {
     this.loc = createVector(loc.x, loc.y);
     this.acc = createVector(0, 0);
     this.vel = createVector(0, 0);
     this.size = 20;
     this.angle = 0;
+
+    this.bullets = [];
   };
 
   this.addForce = function (speed) {
@@ -17,6 +18,12 @@ function Rocket () {
 
   this.rotate = function (value) {
     this.angle += value;
+  }
+
+  this.shot = function () {
+    var bullet = new Bullet();
+    bullet.setup(this.loc, this.angle);
+    this.bullets.push(bullet);
   }
 
   this.update = function () {
@@ -34,7 +41,12 @@ function Rocket () {
     } else if (this.loc.y > height) {
       this.loc.y = 0;
     }
-
+    for (var i = this.bullets.length-1; i >= 0 ; i--) {
+      this.bullets[i].update();
+      if (this.bullets[i].isDead) {
+        this.bullets.splice(i, 1);
+      }
+    }
   };
 
   this.draw = function () {
@@ -44,20 +56,17 @@ function Rocket () {
     fill(255, 0, 0);
     noStroke();
 
-    triangle(this.width/2, 0,
-             -this.width/2, -this.height/2,
-             -this.width/2, this.height/2);
+    triangle(this.size/2, 0,
+             -this.size/2, -this.size/2,
+             -this.size/2, this.size/2);
     pop();
+
+    fill(255, 255, 255);
+    stroke(0);
+    for (var i = 0; i < this.bullets.length; i++) {
+      this.bullets[i].draw();
+    }
   };
 
-  this.isHit = function (asteroids) {
-    for (var i = 0; i < asteroids.length; i++) {
-      var a = asteroids[i];
-      var distance = p5.Vector.dist(this.loc, a.loc);
-      if (distance < (this.width/2 + a.size/2)) {
-        return true;
-      }
-    }
-    return false;
-  }
+
 }

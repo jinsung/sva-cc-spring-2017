@@ -13,11 +13,10 @@
 - [Learning Processing](http://learningprocessing.com/)
 
 ## Start Local Web Server.
-* Open Terminal
-  * In Finder, open to /Applications/Utilities/Terminal
-  * type cd {yourProjectFolder}
-  * python -m SimpleHTTPServer 8000
-  * in brower go to localhost:8000
+ * In Finder, open Terminal that is located in /Applications/Utilities/Terminal
+ * cd {yourProjectFolder} or drag your project folder
+ * python -m SimpleHTTPServer 8000
+ * in brower go to localhost:8000
 
 ## SYLLABUS
 
@@ -142,7 +141,7 @@
   * [Particle System : Grid](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/05_particle_system_grid/index.html)
   * [Particle System : Force](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/06_particle_system_force/index.html)
 
-### Week 9 -- Image / Flocking / Noise
+### Week 9 -- Image / Flocking
 * Topics
   * Display Image
   * Particle interaction
@@ -156,23 +155,23 @@
   * [Particle System : Image](https://jinsung.github.io/sva-cc-spring-2017/week09/examples/06_particle_system_image/index.html)
   * [Particle System : Flocking](https://jinsung.github.io/sva-cc-spring-2017/week09/examples/07_particle_system_image_2/index.html)
 
-### Week 10 -- Vector Math / Asteroid Game -- Assignment 2 due date
+### Week 10 -- Vector Math / Asteroid -- Assignment 2 due date
 * Assignment review
 * Topics
-  * Vector Math
-  * [Asteroid Game](https://jinsung.github.io/sva-cc-spring-2017/week10/examples/01/index.html)
+  * [Asteroid Game](https://jinsung.github.io/sva-cc-spring-2017/week10/examples/01/)
+
 
 ### Week 11 -- Data / Debugging -- Final Project Proposals
 * Topics
-  * JSON
-  * Algorithms
-  * Debugging
+  * Data - JSON
+  * Debugging tools
 
-### Week 12 -- Coord System / Network
+### Week 12 -- Network API / Coord System
 * Topics
-  * push and pop matrix
   * Get data from Internet
-  * Libraries
+  * API
+  * Push and pop matrix
+  * translate / rotate
 
 ### Week 13 -- 3D -- Final Project Troubleshoot and Debugging
 * Topics
