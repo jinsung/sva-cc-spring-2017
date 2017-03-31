@@ -163,15 +163,15 @@
 
 ### Week 11 -- Data / Debugging -- Final Project Proposals
 * Topics
-  * JSON
-  * Algorithms
-  * Debugging
+  * Data - JSON
+  * Debugging tools
 
-### Week 12 -- Coord System / Network
+### Week 12 -- Network API / Coord System
 * Topics
-  * push and pop matrix
   * Get data from Internet
-  * Libraries
+  * API
+  * Push and pop matrix
+  * translate / rotate
 
 ### Week 13 -- 3D -- Final Project Troubleshoot and Debugging
 * Topics
