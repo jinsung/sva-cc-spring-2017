@@ -14,16 +14,42 @@ function setup () {
 }
 
 function update() {
-
   time++;
   if (time > 130) {
     time = 0;
-    as.addAsteroid();
+    as.spawnAsteroid();
   }
   as.update();
   rocket.update();
-  if (rocket.isHit(as.asteroids)) {
+  if (rocketAsteroidHitTest()) {
     isGameOver = true;
+  }
+
+  bulletAsteroidHitTest();
+}
+
+function rocketAsteroidHitTest () {
+  for (var i = 0; i < as.asteroids.length; i++) {
+    var a = as.asteroids[i];
+    var distance = p5.Vector.dist(rocket.loc, a.loc);
+    if (distance < (rocket.size/2 + a.size/2)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+function bulletAsteroidHitTest() {
+  for (var i = as.asteroids.length - 1; i >= 0; i--) {
+    for (var j = rocket.bullets.length - 1; j >= 0; j--) {
+      var a = as.asteroids[i];
+      var b = rocket.bullets[j];
+      var distance = p5.Vector.dist(a.loc, b.loc);
+      if (distance < (a.size/2 + b.size/2)) {
+        b.isDead = true;
+        as.hit(i);
+      }
+    }
   }
 }
 
@@ -46,6 +72,8 @@ function keyPressed() {
     rocket.rotate((Math.PI * 2)/15);
   } else if (keyCode === LEFT_ARROW) {
     rocket.rotate(-(Math.PI * 2)/15);
+  } else if (keyCode === 32) { // s for shot.
+    rocket.shot();
   }
 
 }
