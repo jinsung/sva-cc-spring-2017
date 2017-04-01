@@ -32,18 +32,40 @@ function AsteroidController () {
 			force = createVector( random(-af, af), -speed );
 		}
 
-		asteroid.setup(loc);
+		asteroid.setup(loc, 50);
 		asteroid.addForce(force);
 
 		this.asteroids.push(asteroid);
+	};
+
+
+
+	this.hit = function ( index ) {
+
+		var asteroid1 = new Asteroid();
+		var newSize = this.asteroids[index].size / 2;
+		asteroid1.setup(this.asteroids[index].position, newSize);
+
+		var asteroid2 = new Asteroid();
+		var newSize = this.asteroids[index].size / 2;
+		asteroid2.setup(this.asteroids[index].position, newSize);
+
+		this.asteroids[index].isDead;
+		this.asteroids.splice(index, 1);
+
 	};
 
 	this.update = function () {
 		for (var i = 0; i < this.asteroids.length; i++ ) {
 			var a = this.asteroids[i];
 			a.update();
+			if (a.isDead) {
+				this.asteroids.splice(i, 1);
+			}
+
 		}
 	};
+
 
 	this.draw = function () {
 		for (var i = 0; i < this.asteroids.length; i++ ) {

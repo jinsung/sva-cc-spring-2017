@@ -41,6 +41,7 @@ function bulletAsteroidHitTest() {
 			var distance = b.pos.dist(a.position);
 			if (distance < (b.size/2 + a.size/2) ) {
 				b.hit();
+				ac.hit(j);
 			}
 		}
 	}
