@@ -17,15 +17,15 @@ function Asteroid () {
 		this.position.add(this.velocity);
 		this.velocity.limit(this.maxSpeed);
 
-		if (this.position.x < 0 || this.position.x > width ||
+		if (this.position.x < 0 || this.position.x > width||
 			this.position.y < 0 || this.position.y > height ||
-			this.size < 10 ) {
+			this.size < 10){
 			this.isDead = true;
 		}
 		this.acc.mult(0);
 	};
 
-	this.hit = function () {
+	this.hit = function(){
 
 	};
 

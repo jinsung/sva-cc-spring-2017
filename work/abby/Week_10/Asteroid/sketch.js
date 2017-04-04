@@ -22,14 +22,17 @@ function update() {
 }
 
 function draw() {
-	background(200);
+	background(2, 24, 72);
 
 	this.update();
-	fill(255, 0, 0);
+	fill(217, 217, 217);
+	noStroke();
 	myShip.draw();
+	if (keyIsDown(UP_ARROW))
+		myShip.addForce(createVector(1.0, 0.0));
 
 	noFill();
-	stroke(0);
+	stroke(255);
 	ac.draw();
 }
 
@@ -41,7 +44,8 @@ function bulletAsteroidHitTest() {
 			var distance = b.pos.dist(a.position);
 			if (distance < (b.size/2 + a.size/2) ) {
 				b.hit();
-				ac.hit(j, b.rotation);
+				ac.hit(j);
+
 			}
 		}
 	}
@@ -52,19 +56,8 @@ function keyPressed() {
 		myShip.rotate(-(Math.PI * 2) / 15 );
 	} else if (keyCode == RIGHT_ARROW) {
 		myShip.rotate( (Math.PI * 2) / 15 );
-	} else if (keyCode == UP_ARROW) {
-		myShip.addForce( createVector(1.0, 0.0) );
 	} else if (keyCode == 32) {
 		myShip.fire();
+
 	}
 }
-
-
-
-
-
-
-
-
-
-

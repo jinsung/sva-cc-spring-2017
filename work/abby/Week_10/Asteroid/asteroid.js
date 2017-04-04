@@ -18,8 +18,7 @@ function Asteroid () {
 		this.velocity.limit(this.maxSpeed);
 
 		if (this.position.x < 0 || this.position.x > width ||
-			this.position.y < 0 || this.position.y > height ||
-			this.size < 10 ) {
+			this.position.y < 0 || this.position.y > height) {
 			this.isDead = true;
 		}
 		this.acc.mult(0);
@@ -27,7 +26,7 @@ function Asteroid () {
 
 	this.hit = function () {
 
-	};
+	}
 
 	this.draw = function () {
 		ellipse(this.position.x, this.position.y, this.size, this.size );
