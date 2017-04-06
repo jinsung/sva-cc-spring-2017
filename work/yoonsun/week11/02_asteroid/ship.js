@@ -42,14 +42,14 @@ function Ship () {
 			this.position.y = height;
 		}
 
-		for (var i = this.bullets.length - 1; i >= 0; i-- ) {
+		//for (var i = 0; i < this.bullets.length; i++) {
+		for (var i = this.bullets.length - 1; i >= 0; i--) {
 			this.bullets[i].update();
-			
+
 			if (this.bullets[i].isDead) {
 				this.bullets.splice(i, 1);
 			}
 		}
-
 	};
 
 	this.draw = function () {
@@ -62,16 +62,8 @@ function Ship () {
 				  - this.width/2,   this.height/2 )
 		pop();
 
-		for (var i = 0; i < this.bullets.length; i++) {
+		for ( var i = 0; i < this.bullets.length; i++) {
 			this.bullets[i].draw();
-		}
+		};
 	};
-}
-
-
-
-
-
-
-
-
+};

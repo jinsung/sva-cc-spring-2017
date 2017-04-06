@@ -19,6 +19,7 @@ function update() {
 	myShip.update();
 	ac.update();
 	bulletAsteroidHitTest();
+
 }
 
 function draw() {
@@ -33,13 +34,13 @@ function draw() {
 	ac.draw();
 }
 
-function bulletAsteroidHitTest() {
-	for (var i = myShip.bullets.length - 1; i >= 0; i--) {
-		for (var j = ac.asteroids.length - 1; j >= 0; j--) {
+function bulletAsteroidHitTest(){
+	for (var i = myShip.bullets.length - 1; i >= 0; i--){
+		for (var j = ac.asteroids.length - 1; j >= 0; j--){
 			var b = myShip.bullets[i];
 			var a = ac.asteroids[j];
 			var distance = b.pos.dist(a.position);
-			if (distance < (b.size/2 + a.size/2) ) {
+			if (distance < (b.size/2 + a.size/2)){
 				b.hit();
 				ac.hit(j, b.rotation);
 			}
@@ -54,17 +55,7 @@ function keyPressed() {
 		myShip.rotate( (Math.PI * 2) / 15 );
 	} else if (keyCode == UP_ARROW) {
 		myShip.addForce( createVector(1.0, 0.0) );
-	} else if (keyCode == 32) {
+	} else if (keyCode == 32){
 		myShip.fire();
 	}
 }
-
-
-
-
-
-
-
-
-
-

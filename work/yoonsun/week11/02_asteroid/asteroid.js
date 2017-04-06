@@ -5,7 +5,6 @@ function Asteroid () {
 		this.position = createVector(loc.x, loc.y);
 		this.velocity = createVector(0, 0);
 		this.acc = createVector(0, 0);
-		this.isDead = false;
 	};
 
 	this.addForce = function (vector) {
@@ -19,13 +18,15 @@ function Asteroid () {
 
 		if (this.position.x < 0 || this.position.x > width ||
 			this.position.y < 0 || this.position.y > height ||
-			this.size < 10 ) {
+			this.size < 10) {
 			this.isDead = true;
 		}
+
 		this.acc.mult(0);
+
 	};
 
-	this.hit = function () {
+	this.hit = function() {
 
 	};
 
