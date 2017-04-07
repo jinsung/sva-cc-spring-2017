@@ -38,9 +38,7 @@ function AsteroidController () {
 		this.asteroids.push(asteroid);
 	};
 
-
-
-	this.hit = function ( index, angle ) {
+	this.hit = function (index, angle) {
 		var speed = 0.2;
 		var asteroid1 = new Asteroid();
 		var newSize = this.asteroids[index].size / 2;
@@ -50,18 +48,17 @@ function AsteroidController () {
 		asteroid1.addForce(force1);
 		this.asteroids.push(asteroid1);
 
-		var asteroid2 = new Asteroid();
+		var asteroid2 = new Asteroid(); 
 		var newSize = this.asteroids[index].size / 2;
-		asteroid2.setup(this.asteroids[index].position, newSize);
-		var force2 = p5.Vector.fromAngle(angle - Math.PI/2);
-		force2.mult(speed);
+		asteroid1.setup(this.asteroids[index].position, newSize);
+		var force2 = p5.Vector.fromAngle(angle + Math.PI/2);
+		force2.mult(3);
 		asteroid2.addForce(force2);
-		this.asteroids.push(asteroid1);
 
 		this.asteroids[index].isDead;
 		this.asteroids.splice(index, 1);
 
-	};
+	}
 
 	this.update = function () {
 		for (var i = 0; i < this.asteroids.length; i++ ) {
@@ -70,9 +67,9 @@ function AsteroidController () {
 			if (a.isDead) {
 				this.asteroids.splice(i, 1);
 			}
-
 		}
 	};
+
 
 
 	this.draw = function () {
