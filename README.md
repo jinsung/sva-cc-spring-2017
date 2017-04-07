@@ -163,20 +163,19 @@
 
 ### Week 11 -- Data / Debugging -- Final Project Proposals
 * Topics
-  * Data - JSON
   * Debugging tools
 
 ### Week 12 -- Network API / Coord System
 * Topics
-  * Get data from Internet
-  * API
-  * Push and pop matrix
-  * translate / rotate
+  * [Lerp](https://jinsung.github.io/sva-cc-spring-2017/week12/examples/01_lerp/index.html)
+  * Data - JSON
+  * [Get data from Internet](https://jinsung.github.io/sva-cc-spring-2017/week12/examples/02_weather/index.html)
+  * [Push and pop matrix](https://jinsung.github.io/sva-cc-spring-2017/week12/examples/03_push_pop/index.html)
 
 ### Week 13 -- 3D -- Final Project Troubleshoot and Debugging
 * Topics
   * 3D
-  * Javascript
+  * Processing
 
 ### Week 14 -- Final Project Presentation
 
