@@ -167,11 +167,10 @@
 
 ### Week 12 -- Network API / Coord System
 * Topics
-  * Lerp
+  * [Lerp](https://jinsung.github.io/sva-cc-spring-2017/week12/examples/01_lerp/index.html)
   * Data - JSON
-  * Get data from Internet
-  * Push and pop matrix
-  * translate / rotate
+  * [Get data from Internet](https://jinsung.github.io/sva-cc-spring-2017/week12/examples/02_weather/index.html)
+  * [Push and pop matrix](https://jinsung.github.io/sva-cc-spring-2017/week12/examples/03_push_pop/index.html)
 
 ### Week 13 -- 3D -- Final Project Troubleshoot and Debugging
 * Topics
