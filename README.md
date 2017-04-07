@@ -12,6 +12,12 @@
 - [Getting Started with p5.js](http://amzn.to/1PmztVt)
 - [Learning Processing](http://learningprocessing.com/)
 
+## Start Local Web Server.
+ * In Finder, open Terminal that is located in /Applications/Utilities/Terminal
+ * cd {yourProjectFolder} or drag your project folder
+ * python -m SimpleHTTPServer 8000
+ * in brower go to localhost:8000
+
 ## SYLLABUS
 
 ### Week 1 -- Introduction
@@ -87,7 +93,7 @@
   * [For Loop 2](https://jinsung.github.io/sva-cc-spring-2017/week04/examples/10_customization/index.html)
   * [For Loop 3](https://jinsung.github.io/sva-cc-spring-2017/week04/examples/11_for_loop2/index.html)
 
-### Week 5 -- Functions / Arrays - Assignment 1 due date
+### Week 5 -- Functions - Assignment 1 due date
 * Assignment review
 * Topics
   * Define and Calling Functions
@@ -109,46 +115,67 @@
 ### Week 6 -- Individual Checkup
 * One on one check up for Q and A session.
 
-### Week 7 -- Object
+### Week 7 -- Object / Vector / Force
 * Topics
   * Object
   * Object - Person, Car, Moving Circle, or Robot
   * Wrapped Function (Class) - Prototype, Cookie cutter, or Blue print.
   * OOP - New operator
 * Examples
-  * [Bouncing Ball - Object](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/01_object_101/index.html)
-  * [Bouncing Ball - Separate file](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/02_separate_file/index.html)
-  * [Robot](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/03_kimberly_robot/index.html)
-  * [Robot - Object](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/04_kimberly_obj_robot/index.html)
-  * [Bouncing Ball - Nature](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/05_ball_in_nature/index.html)
-  * [Bouncing Ball - Nature2](https://jinsung.github.io/sva-cc-spring-2017/week06/examples/06_ball_in_nature2/index.html)
+  * [Bouncing Ball - Object](https://jinsung.github.io/sva-cc-spring-2017/week07/examples/01_object_101/index.html)
+  * [Bouncing Ball - Separate file](https://jinsung.github.io/sva-cc-spring-2017/week07/examples/02_separate_file/index.html)
+  * [Robot](https://jinsung.github.io/sva-cc-spring-2017/week07/examples/03_kimberly_robot/index.html)
+  * [Robot - Object](https://jinsung.github.io/sva-cc-spring-2017/week07/examples/04_kimberly_obj_robot/index.html)
+  * [Bouncing Ball - Nature](https://jinsung.github.io/sva-cc-spring-2017/week07/examples/05_ball_in_nature/index.html)
+  * [Bouncing Ball - Nature2](https://jinsung.github.io/sva-cc-spring-2017/week07/examples/06_ball_in_nature2/index.html)
 
-
-### Week 8 -- Multiple JS fils / Event and Callback Function
+### Week 8 -- Arrays / Particle System
 * Topics
-  * How to make multiple files
-  * Clicking on objects
+  * What is an array?
+  * Particle System
+* Examples
+  * [Array 101](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/02_array_101/index.html)
+  * [Array 102](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/03_array_102/index.html)
+  * [Array 102-1](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/03_array_102-1/index.html)
+  * [Particle System](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/04_particle_system/index.html)
+  * [Particle System : Grid](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/05_particle_system_grid/index.html)
+  * [Particle System : Force](https://jinsung.github.io/sva-cc-spring-2017/week08/examples/06_particle_system_force/index.html)
 
-### Week 9 -- Data
+### Week 9 -- Image / Flocking
 * Topics
-  * Algorithms
-  * Debugging
-  * Libraries
+  * Display Image
+  * Particle interaction
+  * Flocking movement
+  * Pixel manipulation
+* Examples
+  * [Particle System : Force](https://jinsung.github.io/sva-cc-spring-2017/week09/examples/02_particle_system_force/index.html)
+  * [Image](https://jinsung.github.io/sva-cc-spring-2017/week09/examples/03_image/index.html)
+  * [Pixels 1](https://jinsung.github.io/sva-cc-spring-2017/week09/examples/04_pixels/index.html)
+  * [Pixels 2](https://jinsung.github.io/sva-cc-spring-2017/week09/examples/05_pixels_event/index.html)
+  * [Particle System : Image](https://jinsung.github.io/sva-cc-spring-2017/week09/examples/06_particle_system_image/index.html)
+  * [Particle System : Flocking](https://jinsung.github.io/sva-cc-spring-2017/week09/examples/07_particle_system_image_2/index.html)
 
-### Week 10 -- Media - - Assignment 2 due date
+### Week 10 -- Vector Math / Asteroid -- Assignment 2 due date
 * Assignment review
 * Topics
-  * Video Import & Playback
-  * Pixel manipulation
+  * [Asteroid Game](https://jinsung.github.io/sva-cc-spring-2017/week10/examples/01/)
 
-### Week 11 -- Final Project Proposals
 
-### Week 12 -- Perlin Noise
+### Week 11 -- Data / Debugging -- Final Project Proposals
 * Topics
-  * What is Perlin Noise
-  * Draw better random numbers
+  * Debugging tools
 
-### Week 13 -- Final Project Troubleshoot and Debugging
+### Week 12 -- Network API / Coord System
+* Topics
+  * [Lerp](https://jinsung.github.io/sva-cc-spring-2017/week12/examples/01_lerp/index.html)
+  * Data - JSON
+  * [Get data from Internet](https://jinsung.github.io/sva-cc-spring-2017/week12/examples/02_weather/index.html)
+  * [Push and pop matrix](https://jinsung.github.io/sva-cc-spring-2017/week12/examples/03_push_pop/)
+
+### Week 13 -- 3D -- Final Project Troubleshoot and Debugging
+* Topics
+  * 3D
+  * Processing
 
 ### Week 14 -- Final Project Presentation
 
