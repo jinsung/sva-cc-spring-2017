@@ -25,7 +25,7 @@ function draw() {
 	background(200);
 
 	this.update();
-	fill(255, 0, 0);
+	fill(0, 255, 0);
 	myShip.draw();
 
 	noFill();
