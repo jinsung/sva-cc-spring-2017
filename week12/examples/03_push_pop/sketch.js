@@ -11,19 +11,23 @@ function draw() {
     angle += 0.03;
     background(200);
     push();
-    translate(width/2, height/2);
+    translate(width/2, height/2 + 50);
     noStroke();
     rotate(angle);
     fill((angle * 20) % 255, 200, 200 );
     rect(0, 0, 100, 100);
+    fill(0, 0, 0);
+    rect(0, 0, 50, 50);
     pop();
-    
+
     push();
     fill(0);
     translate(50, 50);
     rotate(angle * 2);
-    ellipse(0, 0, 2, 2);
-    rect(10, 10, 10, 10);
+    fill((angle * 20) % 255, 200, 200 );
+    rect(10, 10, 30, 30);
+    fill(0, 0, 0);
+    rect(0, 0, 10, 10);
     pop();
 
 }
