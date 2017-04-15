@@ -26,8 +26,8 @@ function setup () {
     var length = r * TWO_PI;
     
     for (var i = 0; i < numOfPoints; i++ ) {
-        var xPos = width/2 + Math.cos(i/(numOfPoints-2) * TWO_PI) * r;
-        var yPos = height/2 + Math.sin(i/(numOfPoints-2) * TWO_PI) * r;
+        var xPos = width/2 + Math.cos(i/(numOfPoints-2) * TWO_PI - PI/2 ) * r;
+        var yPos = height/2 + Math.sin( i/(numOfPoints-2) * TWO_PI - PI/2 ) * r;
 
         var noiseValX = noise(timeX, xPos * noiseAmount, yPos * noiseAmount);
         var noiseValY = noise(timeY, yPos * noiseAmount, xPos * noiseAmount);
@@ -40,7 +40,7 @@ function setup () {
         
         circlePoses.push(createVector(xPos, yPos));
         targetPoses.push(createVector(xPos, yPos));
-        var xLinePos = width/2 + (i/numOfPoints * length) - length/2;
+        var xLinePos = width/2 + ( (numOfPoints-i) / numOfPoints * length) - length/2;
         var yLinePos = height/2 + r;
         
         linePoses.push(createVector(xLinePos, yLinePos));
