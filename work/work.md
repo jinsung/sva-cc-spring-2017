@@ -9,12 +9,12 @@
 * Chung, Elaine
   * [Assignment 2](https://jinsung.github.io/sva-cc-spring-2017/work/elainechung/assignment_2/index.html)
 * Guillin, Théo
-  * [Assignment 0 - Random](https://jinsung.github.io/sva-cc-spring-2017/work/théo/BONUS_random/aurora/index.html)
-  * [Assignment 1 - Aurora](https://jinsung.github.io/sva-cc-spring-2017/work/théo/PROJECT_01/aurora/index.html)
-  * [Assignment 1 - Dandelion](https://jinsung.github.io/sva-cc-spring-2017/work/théo/PROJECT_01/dandelion/index.html)
-  * [Assignment 2 - Pattern Paly](https://jinsung.github.io/sva-cc-spring-2017/work/théo/PROJECT_02/pattern_play_01/index.html)
+  * [Assignment 0 - Random](https://jinsung.github.io/sva-cc-spring-2017/work/theo/BONUS_random/aurora/index.html)
+  * [Assignment 1 - Aurora](https://jinsung.github.io/sva-cc-spring-2017/work/theo/PROJECT_01/aurora/index.html)
+  * [Assignment 1 - Dandelion](https://jinsung.github.io/sva-cc-spring-2017/work/theo/PROJECT_01/dandelion/index.html)
+  * [Assignment 2 - Pattern Paly](https://jinsung.github.io/sva-cc-spring-2017/work/theo/PROJECT_02/pattern_play_01/index.html)
 * Huang, Rouhua
-  * [Assignment 1](https://jinsung.github.io/sva-cc-spring-2017/work/Rouhua/assignment_1/index.html)
+  * [Assignment 1](https://jinsung.github.io/sva-cc-spring-2017/work/Ruohua/assignment_1/index.html)
 * Jain, Avni
   * [Assignment 1](https://jinsung.github.io/sva-cc-spring-2017/work/Avni/assignment_01/index.html)
 * Kalen, Abigail R.
