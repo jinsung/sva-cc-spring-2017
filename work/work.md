@@ -9,7 +9,7 @@
 * Chung, Elaine
   * [Assignment 2](https://jinsung.github.io/sva-cc-spring-2017/work/elainechung/assignment_2/index.html)
 * Guillin, Théo
-  * [Assignment 0 - Random](https://jinsung.github.io/sva-cc-spring-2017/work/theo/BONUS_random/aurora/index.html)
+  * [Assignment 0 - Random](https://jinsung.github.io/sva-cc-spring-2017/work/theo/BONUS_random/index.html)
   * [Assignment 1 - Aurora](https://jinsung.github.io/sva-cc-spring-2017/work/theo/PROJECT_01/aurora/index.html)
   * [Assignment 1 - Dandelion](https://jinsung.github.io/sva-cc-spring-2017/work/theo/PROJECT_01/dandelion/index.html)
   * [Assignment 2 - Pattern Paly](https://jinsung.github.io/sva-cc-spring-2017/work/theo/PROJECT_02/pattern_play_01/index.html)
