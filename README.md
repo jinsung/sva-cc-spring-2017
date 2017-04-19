@@ -172,10 +172,10 @@
   * [Get data from Internet](https://jinsung.github.io/sva-cc-spring-2017/week12/examples/02_weather/index.html)
   * [Push and pop matrix](https://jinsung.github.io/sva-cc-spring-2017/week12/examples/03_push_pop/)
 
-### Week 13 -- 3D -- Final Project Troubleshoot and Debugging
+### Week 13 -- Noise
 * Topics
-  * 3D
-  * Processing
+  * [Noise](https://jinsung.github.io/sva-cc-spring-2017/week13/examples/01_noise/index.html)
+  * [Lines](https://jinsung.github.io/sva-cc-spring-2017/week13/examples/01_line/index.html)
 
 ### Week 14 -- Final Project Presentation
 

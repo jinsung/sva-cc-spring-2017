@@ -10,6 +10,8 @@ function setup () {
 	noStroke();
 	loadPixels();
 
+	//createCanvas(100, 100, WEBGL);
+
 	rect ( 0, 0, width, height);
 
 	var d = pixelDensity();
