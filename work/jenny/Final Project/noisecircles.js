@@ -11,7 +11,7 @@ var drawCircle;
 var lineColor;
 
 function setup (){
-    createCanvas( 500,500 );
+    createCanvas( 800,800 );
     numOfPoints = 60;
     numOfCircles = 20;
     prevPos = createVector(0,0);
@@ -24,7 +24,7 @@ function setup (){
     lineColor = 100;
     
     var r = width * 0.1;
-    var noiseAmount = 0.1;
+    var noiseAmount = 0.02;
     
     var length = r * TWO_PI;
     

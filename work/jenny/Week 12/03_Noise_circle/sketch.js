@@ -5,7 +5,7 @@ var timeX;
 var timeY;
 
 function setup (){
-    createCanvas( 500,500 );
+    createCanvas( 800,800 );
     numOfPoints = 60;
     numOfCircles = 20;
     prevPos = createVector(0,0);
@@ -17,10 +17,10 @@ function draw (){
     background(10);
     //stroke(255);
     //smooth();
-    timeX += 0.04;
-    timeY += 0.03;
+    timeX += 0.08;
+    timeY += 0.09;
     var r = width * 0.45;
-    var noiseAmount = 0.1;
+    var noiseAmount = 0.2;
     for(var j = 0; j< numOfCircles; j++ ){
         r = (width * 0.45) * ((j+1)/numOfCircles);
         noiseAmount = r * r * r * 0.001;
@@ -40,9 +40,12 @@ function draw (){
             if (i >1){
                 line(xPos, yPos, prevPos.x, prevPos.y);
             }
-
             
             prevPos = createVector(xPos, yPos);
         }
     }
+}
+
+function mouseMoved() {
+    
 }
