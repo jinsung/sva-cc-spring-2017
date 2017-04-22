@@ -1,10 +1,30 @@
 var myImage;
 
+var imageX;
+var imageY;
+
+function preload() {
+  myImage = loadImage("Assets/UnicornFinal-01.png");
+
+}
+
 function setup() {
   // Create the canvas
   createCanvas(1000, 500);
   background(213, 234, 245);
 
+  imageX = 0;
+  imageY = height - myImage.height;
+    
+}
+
+function keyPressed () {
+  if (keyCode == UP_ARROW) {
+    imageY -= 10;
+  }
+}
+
+function drawBackground () {
   // Set colors
   fill(255, 255, 255, 127);
   noStroke();
@@ -29,15 +49,12 @@ function setup() {
   ellipse(590, 420, 30, 30);
   ellipse(660, 390, 30, 30);
   ellipse(690, 410, 50, 50);
-    
-
-function preload() {
-  myImage = loadImage("assets/UnicornFinal-01.png");
 }
 
 function draw() {
     imageMode(CENTER);
-    image(myImage, mouseX, mouseY);
+    background(213, 234, 245);
+    drawBackground();
+    image(myImage, imageX, imageY);
 }
     
-}
