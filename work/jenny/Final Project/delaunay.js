@@ -108,7 +108,7 @@ var Delaunay;
           i, j, indices, st, open, closed, edges, dx, dy, a, b, c;
 
       /* Bail if there aren't enough vertices to form any triangles. */
-      if(n < 3)
+      if(n < 2)
         return [];
 
       /* Slice out the actual vertices from the passed objects. (Duplicate the
