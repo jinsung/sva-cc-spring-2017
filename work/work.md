@@ -44,7 +44,7 @@
   * [Assignment 2](https://jinsung.github.io/sva-cc-spring-2017/work/wukimberly/assignment_2/index.html)
 * Yang, Qi
 * Yang, Yu Ji
-  * [Assignment 1](https://jinsung.github.io/sva-cc-spring-2017/work/yuji/Assignment2/index.html)
+  * [Assignment 2](https://jinsung.github.io/sva-cc-spring-2017/work/yuji/Assignment2/index.html)
 * Yoon, Yeon Sang
 * Zhu, Yijun
   * [Assignment 1](https://jinsung.github.io/sva-cc-spring-2017/work/yijunzhu/homework/0210/index.html)
