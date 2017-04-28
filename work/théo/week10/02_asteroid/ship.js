@@ -6,6 +6,7 @@ function Ship () {
 		this.velocity = createVector(0, 0);
 		this.acc = createVector (0, 0);
 		this.rotation = 0;
+		this.bullets = [];
 	};
 
 	this.addForce = function (vector){
@@ -18,11 +19,18 @@ function Ship () {
 		this.rotation += value;
 
 	};
+	this.fire = function () {
+		var b = new Bullet();
+		b.setup(this.position, this.rotation);
+		this.bullets.push(b);
+
+
+	};
 
 	this.update = function () {
 		this.velocity.add(this.acc);
 		this.position.add(this.velocity);
-		this.velocity.mult(0.98);
+		this.velocity.mult(0.95);
 		this.acc.mult(0);
 
 		if (this.position.x > width) {
@@ -36,6 +44,17 @@ function Ship () {
 		}else if (this.position.y < 0) {
 			this.position.y = height;
 		}
+
+		//for (var i = 0; i < this.bullets.length; i++) {
+		for (var i = this.bullets.length - 1; i >= 0; i--) {
+			this.bullets[i].update();
+
+			if (this.bullets[i].isDead) {
+				this.bullets.splice(i, 1);
+			}
+
+		}
+
 	};
 
 	this.draw = function () {
@@ -48,5 +67,8 @@ function Ship () {
 				- this.width/2,   this.height/2 );
 
 		pop();
+		for (var i = 0; i < this.bullets.length; i++) {
+			this.bullets[i].draw();
+		}
 	};
 }
