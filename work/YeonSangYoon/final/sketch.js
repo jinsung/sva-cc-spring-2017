@@ -3,7 +3,9 @@ var w = 40;
 var grid = [];
 var current;
 var stack = [];
-
+var angleOffset = 0;
+var currentX = 0;
+var currentY = 0;
 function setup() {
   createCanvas(1400, 440);
   cols = floor(width/w);
@@ -58,8 +60,6 @@ function index(i,j) {
 function Cell(i,j) {
   this.i = i;
   this.j = j;
-  this.previ = i-1;
-  this.prevj = j-1;
   this.walls = [true,true,true,true];
   this.visited = false;
   this.checkNeighbors = function() {
@@ -77,41 +77,52 @@ function Cell(i,j) {
     if (right && !right.visited) {
       neighbors.push(right);
     }
-    
+
     if (bottom && !bottom.visited) {
       neighbors.push(bottom);
     }
-    
+
     if (left && !left.visited) {
       neighbors.push(left);
     }
 
     if (neighbors.length > 0) {
       var r = floor(random(0, neighbors.length));
-      return neighbors[r];     
+      return neighbors[r];
     } else {
       return undefined;
     }
   }
+
   this.highlight = function() {
+
     var x = this.i*w;
     var y = this.j*w;
-    var angleOffset = 0;
+
     var animAngleOffset = PI/5;
-    if (this.previ < this.i) {
+    if (currentX < this.i) {
+      // left;
+      angleOffset = 0;
+    }
+    if (currentX > this.i){
+      // right
+      angleOffset = PI;
+    }
+    if (currentY < this.j) {
+        // bottom;
         angleOffset = PI/2;
-        // moving right;
     }
-    if (this.prevj < this.j) {
-        // moving left;
-        angleOffset = PI;
+    if (currentY > this.j) {
+        // top
+        angleOffset = PI * 1.5;
     }
+    currentX = this.i;
+    currentY = this.j;
     noStroke();
     fill(255,255,0,255);
     //ellipse(x+20,y+20,2*w/3, 2*w/3);
     //ellipse(x+10,y+10,2*w/6, 2*w/6);
     //ellipse(x+30,y+10,2*w/6, 2*w/6);
-
     arc(x+20, y+20, 30, 30, angleOffset + animAngleOffset, angleOffset - animAngleOffset);
 
 }
