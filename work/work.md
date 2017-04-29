@@ -49,3 +49,6 @@
 * Zhu, Yijun
   * [Assignment 1](https://jinsung.github.io/sva-cc-spring-2017/work/yijunzhu/homework/0210/index.html)
   * [Assignment 2](https://jinsung.github.io/sva-cc-spring-2017/work/yijunzhu/assignment_2/index.html)
+* Yuchen Xu
+  * [Assignment 1](https://jinsung.github.io/sva-cc-spring-2017/work/yuchenxu/assignment_1/index.html);
+  * [Assignment 2](https://jinsung.github.io/sva-cc-spring-2017/work/yuchenxu/assignment_2/index.html);
