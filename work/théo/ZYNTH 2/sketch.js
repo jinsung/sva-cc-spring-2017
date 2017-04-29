@@ -16,6 +16,9 @@ var myRed
 var myGreen
 var myBlue
 
+var currentCircleSize = 0;
+var targetCircleSize = 0;
+
 function preload() {
 drums1 = loadSound('Drums/drums1.mp3');
 drums2 = loadSound('Drums/drums2.mp3');
@@ -166,9 +169,11 @@ function draw() {
 
   // Get the average (root mean square) amplitude
   var rms = analyzer.getLevel();
+  targetCircleSize = 10+rms*100;
   noFill();
   stroke(myRed, myGreen, myBlue);
-
+  var differentBtwCurrentAndTarget = targetCircleSize - currentCircleSize;
   // Draw an ellipse with size based on volume
-  ellipse(mouseX, mouseY, 10+rms*100, 10+rms*100);
+  currentCircleSize += differentBtwCurrentAndTarget * 0.1;
+  ellipse(mouseX, mouseY, currentCircleSize, currentCircleSize);
 }

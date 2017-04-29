@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #111111;
+    /*background-image: url("Reaction02_Alone.JPG");
+    background-color: #cccccc;*/
+
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #ebebeb
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 2px;
+    color: #ebebeb
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    text-align: center;
+    text-transform: none;
+    color: #ebebeb
+}
+
+.colorsection {
+    width: 100%;
+    height: ;
+    background: #cccccc;
+}
+
+.colorsection img {
+    width: 100%;
+}
