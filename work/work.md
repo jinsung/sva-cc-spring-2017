@@ -64,7 +64,7 @@
   * [Assignment 2](https://jinsung.github.io/sva-cc-spring-2017/work/yoonsun/assignment_02/index.html)
   * [Final](https://jinsung.github.io/sva-cc-spring-2017/work/yoonsun/final/stoody_animation/index.html)
 * Yang, Yu Ji
-  * [Assignment 1](https://jinsung.github.io/sva-cc-spring-2017/work/yuji/AS_1/index.html)
+  * [Assignment 1](https://jinsung.github.io/sva-cc-spring-2017/work/yuji/Assignment1/index.html)
   * [Assignment 2](https://jinsung.github.io/sva-cc-spring-2017/work/yuji/Assignment2/index.html)
   * [Final](https://jinsung.github.io/sva-cc-spring-2017/work/yuji/yuji_Final/Final/index.html)
 * Yuchen Xu
