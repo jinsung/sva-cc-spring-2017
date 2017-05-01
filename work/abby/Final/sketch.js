@@ -7,19 +7,19 @@ var bg;
 var isKeyPressed = false;
 
 function preload() {
-    bg = loadImage ("Assets/n-STARRY-NIGHT-628x314.jpg");
+    bg = loadImage ("Assets/landscape.gif");
     
-  myImage = createImg("Assets/kgrtehja_DancingBannana.gif");
+  myImage = createImg("Assets/birdy.gif");
 
 }
 
 function setup() {
   // Create the canvas
-  createCanvas(1000, 500);
+  createCanvas(900, 562);
   
   imageX = 0;
   imageY = height - myImage.height;
-  for (var i=0; i<15; i++) {
+  for (var i=0; i<55; i++) {
     bugs.push(new Jitter());
   }
 }
@@ -43,29 +43,29 @@ function keyReleased () {
 
 function drawBackground () {
   // Set colors
-  fill(255, 255, 255, 127);
+  fill(255, 238, 53);
   noStroke();
 
   // Cloud One
-  ellipse(740, 140, 60, 60);
-  ellipse(720, 110, 70, 70);
-  ellipse(770, 120, 40, 40);
-  ellipse(680, 120, 30, 30);
-  ellipse(690, 155, 50, 50);
+  //ellipse(740, 140, 60, 60);
+  //ellipse(720, 110, 70, 70);
+  //ellipse(770, 120, 40, 40);
+  //ellipse(680, 120, 30, 30);
+  //ellipse(690, 155, 50, 50);
   
   // Cloud Two
-  ellipse(240, 240, 40, 40);
-  ellipse(220, 210, 80, 80);
-  ellipse(270, 220, 60, 60);
-  ellipse(180, 220, 50, 50);
+  //ellipse(240, 240, 40, 40);
+  //ellipse(220, 210, 80, 80);
+  //ellipse(270, 220, 60, 60);
+  //ellipse(180, 220, 50, 50);
     
   // Cloud Three
-  ellipse(640, 380, 30, 30);
-  ellipse(620, 410, 60, 60);
-  ellipse(650, 420, 60, 60);
-  ellipse(590, 420, 30, 30);
-  ellipse(660, 390, 30, 30);
-  ellipse(690, 410, 50, 50);
+  //ellipse(640, 380, 30, 30);
+  //ellipse(620, 410, 60, 60);
+  //ellipse(650, 420, 60, 60);
+  //ellipse(590, 420, 30, 30);
+  //ellipse(660, 390, 30, 30);
+  //ellipse(690, 410, 50, 50);
 }
 
 function draw() {
@@ -84,7 +84,7 @@ function draw() {
 function Jitter() {
   this.x = random(width);
   this.y = random(height);
-  this.diameter = random(40, 90);
+  this.diameter = random(5, 5);
   this.speed = 1;
 
   this.move = function() {
