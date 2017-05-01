@@ -58,14 +58,14 @@
 * Zhu, Yijun
   * [Assignment 1](https://jinsung.github.io/sva-cc-spring-2017/work/yijunzhu/homework/0210/index.html)
   * [Assignment 2](https://jinsung.github.io/sva-cc-spring-2017/work/yijunzhu/assignment_2/index.html)
-  * [Final](https://jinsung.github.io/sva-cc-spring-2017/work/yuji/yuji_Final/Final/index.html)
+  * [Final](https://jinsung.github.io/sva-cc-spring-2017/work/yijunzhu/Final/index.html)
 * Choi, Yoon Sun
   * [Assignment 1](https://jinsung.github.io/sva-cc-spring-2017/work/yoonsun/assignment_01/index.html)
   * [Assignment 2](https://jinsung.github.io/sva-cc-spring-2017/work/yoonsun/assignment_02/index.html)
   * [Final](https://jinsung.github.io/sva-cc-spring-2017/work/yoonsun/final/stoody_animation/index.html)
 * Yang, Yu Ji
   * [Assignment 2](https://jinsung.github.io/sva-cc-spring-2017/work/yuji/Assignment2/index.html)
-  * [Final](https://jinsung.github.io/sva-cc-spring-2017/work/yuji/yuji_Final/index.html)
+  * [Final](https://jinsung.github.io/sva-cc-spring-2017/work/yuji/yuji_Final/Final/index.html)
 * Yuchen Xu
   * [Assignment 1](https://jinsung.github.io/sva-cc-spring-2017/work/yuchenxu/assignment_1/index.html)
   * [Assignment 2](https://jinsung.github.io/sva-cc-spring-2017/work/yuchenxu/assignment_2/index.html)
