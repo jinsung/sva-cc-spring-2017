@@ -174,8 +174,8 @@
 
 ### Week 13 -- Noise
 * Topics
-  * [Noise](https://jinsung.github.io/sva-cc-spring-2017/week13/examples/01_noise/index.html)
-  * [Lines](https://jinsung.github.io/sva-cc-spring-2017/week13/examples/01_line/index.html)
+  * [Noise](https://jinsung.github.io/sva-cc-spring-2017/week13/examples/03_noise/index.html)
+  * [Lines](https://jinsung.github.io/sva-cc-spring-2017/week13/examples/04_line/index.html)
 
 ### Week 14 -- Final Project Presentation
 
