@@ -7,7 +7,7 @@
 - This course involves an exploration of programming as a tool of visual communication and interactivity between computer and people. This is a project-based course. Students will learn computer programming by their hands-on experiences. During the semester the p5.js will be used to illustrate fundamental of computation.
 
 ## RESOURCES
-- [p5.js tutorials](http://p5js.org/tutorials/)
+- [p5.js tutorials](https://p5js.org/learn/)
 - [p5.js reference](http://p5js.org/reference)
 - [Getting Started with p5.js](http://amzn.to/1PmztVt)
 - [Learning Processing](http://learningprocessing.com/)
